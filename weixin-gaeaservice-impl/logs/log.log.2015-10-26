@@ -1,0 +1,210 @@
+2015-10-26 18:07:17 [ main:0 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\PersonalInfo.properties
+2015-10-26 18:08:53 [ main:0 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\PersonalInfo.properties
+2015-10-26 18:12:14 [ main:0 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\PersonalInfo.properties
+2015-10-26 18:12:14 [ main:1 ] - [ INFO ] init ConnectionPool...
+2015-10-26 18:12:14 [ main:1 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:mysql://192.168.3.77:3306/sp_db?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8
+2015-10-26 18:12:14 [ main:1 ] - [ DEBUG ] ConnectionPool DriversClass:com.mysql.jdbc.Driver
+2015-10-26 18:12:14 [ main:1 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-10-26 18:12:14 [ main:1 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-10-26 18:12:14 [ main:1 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-10-26 18:12:14 [ main:1 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-10-26 18:12:14 [ main:1 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-10-26 18:12:14 [ main:1 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-10-26 18:12:14 [ main:284 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\ERPServer.properties
+2015-10-26 18:12:14 [ main:284 ] - [ INFO ] init ConnectionPool...
+2015-10-26 18:12:14 [ main:284 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.19:8824;DatabaseName=ERPSystem
+2015-10-26 18:12:14 [ main:284 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-10-26 18:12:14 [ main:284 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-10-26 18:12:14 [ main:284 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-10-26 18:12:14 [ main:284 ] - [ DEBUG ] ConnectionPool MinPoolSize:1
+2015-10-26 18:12:14 [ main:284 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-10-26 18:12:14 [ main:284 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-10-26 18:12:14 [ main:284 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-10-26 18:12:15 [ main:699 ] - [ DEBUG ] 执行sql='SELECT erp_code AS erpcode,openid from weixin_info where isemailchecked=1'
+参数：
+
+2015-10-26 18:12:15 [ main:753 ] - [ DEBUG ] 执行sql='SELECT erp_code,audit_pass_at as time from personal_info where erp_code in ('gys1508070001','4507','6867','5132','6946','6872','4945','GYS1508120004','5001','4987','5604','3624','5074','6456','3863','1739','6705','2286','4673','6815','5913','6396','235','6636','235','GYS1508270001','5409','1680','2412','6956','3005','6784','5748','2353','5819','5284','4436','6521','6761','5153','4850','6772','GYS1509250005','6909','6909','GYS1508140006','6508','6258','5486','2731','2320','5832','6796','4155','7009','6931','5198','7003','5842','3675','5218','6826','6659','4564','3886','5220','GYS1508100007','4834','2375','6720','3913','5589','6648','2527','GYS1509110007','6962','2390','1510','4125','4136','6395','016','4685','2851','6888','4278','amaz0037','6898','6753','5101','4322','4641','922','5542','2237','1188','GYS1508180002','6891')'
+参数：
+
+2015-10-26 18:12:48 [ main:0 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\PersonalInfo.properties
+2015-10-26 18:12:48 [ main:1 ] - [ INFO ] init ConnectionPool...
+2015-10-26 18:12:48 [ main:1 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:mysql://192.168.3.77:3306/sp_db?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8
+2015-10-26 18:12:48 [ main:1 ] - [ DEBUG ] ConnectionPool DriversClass:com.mysql.jdbc.Driver
+2015-10-26 18:12:48 [ main:1 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-10-26 18:12:48 [ main:1 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-10-26 18:12:48 [ main:1 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-10-26 18:12:48 [ main:1 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-10-26 18:12:48 [ main:1 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-10-26 18:12:48 [ main:2 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-10-26 18:12:48 [ main:89 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\ERPServer.properties
+2015-10-26 18:12:48 [ main:89 ] - [ INFO ] init ConnectionPool...
+2015-10-26 18:12:48 [ main:89 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.19:8824;DatabaseName=ERPSystem
+2015-10-26 18:12:48 [ main:89 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-10-26 18:12:48 [ main:89 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-10-26 18:12:48 [ main:89 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-10-26 18:12:48 [ main:89 ] - [ DEBUG ] ConnectionPool MinPoolSize:1
+2015-10-26 18:12:48 [ main:89 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-10-26 18:12:48 [ main:89 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-10-26 18:12:48 [ main:89 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-10-26 18:12:48 [ main:246 ] - [ DEBUG ] 执行sql='SELECT erp_code AS erpcode,openid from weixin_info where isemailchecked=1'
+参数：
+
+2015-10-26 18:13:47 [ main:58740 ] - [ DEBUG ] 执行sql='SELECT erp_code,audit_pass_at as time from personal_info where erp_code in ('gys1508070001','4507','6867','5132','6946','6872','4945','GYS1508120004','5001','4987','5604','3624','5074','6456','3863','1739','6705','2286','4673','6815','5913','6396','235','6636','235','GYS1508270001','5409','1680','2412','6956','3005','6784','5748','2353','5819','5284','4436','6521','6761','5153','4850','6772','GYS1509250005','6909','6909','GYS1508140006','6508','6258','5486','2731','2320','5832','6796','4155','7009','6931','5198','7003','5842','3675','5218','6826','6659','4564','3886','5220','GYS1508100007','4834','2375','6720','3913','5589','6648','2527','GYS1509110007','6962','2390','1510','4125','4136','6395','016','4685','2851','6888','4278','amaz0037','6898','6753','5101','4322','4641','922','5542','2237','1188','GYS1508180002','6891')'
+参数：
+
+2015-10-26 18:17:00 [ main:0 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\PersonalInfo.properties
+2015-10-26 18:17:00 [ main:1 ] - [ INFO ] init ConnectionPool...
+2015-10-26 18:17:00 [ main:1 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:mysql://192.168.3.77:3306/sp_db?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8
+2015-10-26 18:17:00 [ main:1 ] - [ DEBUG ] ConnectionPool DriversClass:com.mysql.jdbc.Driver
+2015-10-26 18:17:00 [ main:1 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-10-26 18:17:00 [ main:1 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-10-26 18:17:00 [ main:1 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-10-26 18:17:00 [ main:1 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-10-26 18:17:00 [ main:2 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-10-26 18:17:00 [ main:2 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-10-26 18:17:00 [ main:89 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\ERPServer.properties
+2015-10-26 18:17:00 [ main:89 ] - [ INFO ] init ConnectionPool...
+2015-10-26 18:17:00 [ main:89 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.19:8824;DatabaseName=ERPSystem
+2015-10-26 18:17:00 [ main:89 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-10-26 18:17:00 [ main:89 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-10-26 18:17:00 [ main:89 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-10-26 18:17:00 [ main:89 ] - [ DEBUG ] ConnectionPool MinPoolSize:1
+2015-10-26 18:17:00 [ main:89 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-10-26 18:17:00 [ main:89 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-10-26 18:17:00 [ main:89 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-10-26 18:17:00 [ main:254 ] - [ DEBUG ] 执行sql='SELECT erp_code AS erpcode,openid from weixin_info where isemailchecked=1'
+参数：
+
+2015-10-26 18:17:00 [ main:270 ] - [ DEBUG ] 执行sql='SELECT erp_code as erpcode,audit_pass_at as time from personal_info where erp_code in ('gys1508070001','4507','6867','5132','6946','6872','4945','GYS1508120004','5001','4987','5604','3624','5074','6456','3863','1739','6705','2286','4673','6815','5913','6396','235','6636','235','GYS1508270001','5409','1680','2412','6956','3005','6784','5748','2353','5819','5284','4436','6521','6761','5153','4850','6772','GYS1509250005','6909','6909','GYS1508140006','6508','6258','5486','2731','2320','5832','6796','4155','7009','6931','5198','7003','5842','3675','5218','6826','6659','4564','3886','5220','GYS1508100007','4834','2375','6720','3913','5589','6648','2527','GYS1509110007','6962','2390','1510','4125','4136','6395','016','4685','2851','6888','4278','amaz0037','6898','6753','5101','4322','4641','922','5542','2237','1188','GYS1508180002','6891')'
+参数：
+
+2015-10-26 18:17:13 [ main:1 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\PersonalInfo.properties
+2015-10-26 18:17:13 [ main:2 ] - [ INFO ] init ConnectionPool...
+2015-10-26 18:17:13 [ main:2 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:mysql://192.168.3.77:3306/sp_db?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8
+2015-10-26 18:17:13 [ main:2 ] - [ DEBUG ] ConnectionPool DriversClass:com.mysql.jdbc.Driver
+2015-10-26 18:17:13 [ main:2 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-10-26 18:17:13 [ main:2 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-10-26 18:17:13 [ main:2 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-10-26 18:17:13 [ main:2 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-10-26 18:17:13 [ main:2 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-10-26 18:17:13 [ main:2 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-10-26 18:17:13 [ main:96 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\ERPServer.properties
+2015-10-26 18:17:13 [ main:96 ] - [ INFO ] init ConnectionPool...
+2015-10-26 18:17:13 [ main:96 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.19:8824;DatabaseName=ERPSystem
+2015-10-26 18:17:13 [ main:96 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-10-26 18:17:13 [ main:96 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-10-26 18:17:13 [ main:96 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-10-26 18:17:13 [ main:96 ] - [ DEBUG ] ConnectionPool MinPoolSize:1
+2015-10-26 18:17:13 [ main:96 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-10-26 18:17:13 [ main:96 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-10-26 18:17:13 [ main:96 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-10-26 18:17:13 [ main:269 ] - [ DEBUG ] 执行sql='SELECT erp_code AS erpcode,openid from weixin_info where isemailchecked=1'
+参数：
+
+2015-10-26 18:17:13 [ main:283 ] - [ DEBUG ] 执行sql='SELECT erp_code as erpcode,audit_pass_at as time from personal_info where erp_code in ('gys1508070001','4507','6867','5132','6946','6872','4945','GYS1508120004','5001','4987','5604','3624','5074','6456','3863','1739','6705','2286','4673','6815','5913','6396','235','6636','235','GYS1508270001','5409','1680','2412','6956','3005','6784','5748','2353','5819','5284','4436','6521','6761','5153','4850','6772','GYS1509250005','6909','6909','GYS1508140006','6508','6258','5486','2731','2320','5832','6796','4155','7009','6931','5198','7003','5842','3675','5218','6826','6659','4564','3886','5220','GYS1508100007','4834','2375','6720','3913','5589','6648','2527','GYS1509110007','6962','2390','1510','4125','4136','6395','016','4685','2851','6888','4278','amaz0037','6898','6753','5101','4322','4641','922','5542','2237','1188','GYS1508180002','6891')'
+参数：
+
+2015-10-26 18:29:13 [ main:0 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\PersonalInfo.properties
+2015-10-26 18:29:13 [ main:1 ] - [ INFO ] init ConnectionPool...
+2015-10-26 18:29:13 [ main:2 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:mysql://192.168.3.77:3306/sp_db?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8
+2015-10-26 18:29:13 [ main:2 ] - [ DEBUG ] ConnectionPool DriversClass:com.mysql.jdbc.Driver
+2015-10-26 18:29:13 [ main:2 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-10-26 18:29:13 [ main:2 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-10-26 18:29:13 [ main:2 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-10-26 18:29:13 [ main:2 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-10-26 18:29:13 [ main:2 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-10-26 18:29:13 [ main:2 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-10-26 18:29:13 [ main:86 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\ERPServer.properties
+2015-10-26 18:29:13 [ main:86 ] - [ INFO ] init ConnectionPool...
+2015-10-26 18:29:13 [ main:86 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.19:8824;DatabaseName=ERPSystem
+2015-10-26 18:29:13 [ main:86 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-10-26 18:29:13 [ main:86 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-10-26 18:29:13 [ main:86 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-10-26 18:29:13 [ main:86 ] - [ DEBUG ] ConnectionPool MinPoolSize:1
+2015-10-26 18:29:13 [ main:87 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-10-26 18:29:13 [ main:87 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-10-26 18:29:13 [ main:87 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-10-26 18:29:13 [ main:249 ] - [ DEBUG ] 执行sql='SELECT erp_code AS erpcode,openid from weixin_info where isemailchecked=1'
+参数：
+
+2015-10-26 18:29:13 [ main:265 ] - [ DEBUG ] 执行sql='SELECT erp_code as erpcode,audit_pass_at as time from personal_info where erp_code in ('gys1508070001','4507','6867','5132','6946','6872','4945','GYS1508120004','5001','4987','5604','3624','5074','6456','3863','1739','6705','2286','4673','6815','5913','6396','235','6636','235','GYS1508270001','5409','1680','2412','6956','3005','6784','5748','2353','5819','5284','4436','6521','6761','5153','4850','6772','GYS1509250005','6909','6909','GYS1508140006','6508','6258','5486','2731','2320','5832','6796','4155','7009','6931','5198','7003','5842','3675','5218','6826','6659','4564','3886','5220','GYS1508100007','4834','2375','6720','3913','5589','6648','2527','GYS1509110007','6962','2390','1510','4125','4136','6395','016','4685','2851','6888','4278','amaz0037','6898','6753','5101','4322','4641','922','5542','2237','1188','GYS1508180002','6891','859')'
+参数：
+
+2015-10-26 18:30:00 [ main:0 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\PersonalInfo.properties
+2015-10-26 18:30:00 [ main:1 ] - [ INFO ] init ConnectionPool...
+2015-10-26 18:30:00 [ main:1 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:mysql://192.168.3.77:3306/sp_db?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8
+2015-10-26 18:30:00 [ main:1 ] - [ DEBUG ] ConnectionPool DriversClass:com.mysql.jdbc.Driver
+2015-10-26 18:30:00 [ main:1 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-10-26 18:30:00 [ main:1 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-10-26 18:30:00 [ main:1 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-10-26 18:30:00 [ main:2 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-10-26 18:30:00 [ main:2 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-10-26 18:30:00 [ main:2 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-10-26 18:30:00 [ main:86 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\ERPServer.properties
+2015-10-26 18:30:00 [ main:86 ] - [ INFO ] init ConnectionPool...
+2015-10-26 18:30:00 [ main:86 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.19:8824;DatabaseName=ERPSystem
+2015-10-26 18:30:00 [ main:86 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-10-26 18:30:00 [ main:86 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-10-26 18:30:00 [ main:86 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-10-26 18:30:00 [ main:87 ] - [ DEBUG ] ConnectionPool MinPoolSize:1
+2015-10-26 18:30:00 [ main:87 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-10-26 18:30:00 [ main:87 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-10-26 18:30:00 [ main:87 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-10-26 18:30:00 [ main:248 ] - [ DEBUG ] 执行sql='SELECT erp_code AS erpcode,openid from weixin_info where isemailchecked=1'
+参数：
+
+2015-10-26 18:30:00 [ main:261 ] - [ DEBUG ] 执行sql='SELECT erp_code as erpcode,audit_pass_at as time from personal_info where erp_code in ('gys1508070001','4507','6867','5132','6946','6872','4945','GYS1508120004','5001','4987','5604','3624','5074','6456','3863','1739','6705','2286','4673','6815','5913','6396','235','6636','235','GYS1508270001','5409','1680','2412','6956','3005','6784','5748','2353','5819','5284','4436','6521','6761','5153','4850','6772','GYS1509250005','6909','6909','GYS1508140006','6508','6258','5486','2731','2320','5832','6796','4155','7009','6931','5198','7003','5842','3675','5218','6826','6659','4564','3886','5220','GYS1508100007','4834','2375','6720','3913','5589','6648','2527','GYS1509110007','6962','2390','1510','4125','4136','6395','016','4685','2851','6888','4278','amaz0037','6898','6753','5101','4322','4641','922','5542','2237','1188','GYS1508180002','6891','859')'
+参数：
+
+2015-10-26 18:30:35 [ main:0 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\PersonalInfo.properties
+2015-10-26 18:30:35 [ main:1 ] - [ INFO ] init ConnectionPool...
+2015-10-26 18:30:35 [ main:1 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:mysql://192.168.3.77:3306/sp_db?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8
+2015-10-26 18:30:35 [ main:1 ] - [ DEBUG ] ConnectionPool DriversClass:com.mysql.jdbc.Driver
+2015-10-26 18:30:35 [ main:1 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-10-26 18:30:35 [ main:1 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-10-26 18:30:35 [ main:1 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-10-26 18:30:35 [ main:1 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-10-26 18:30:35 [ main:2 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-10-26 18:30:35 [ main:2 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-10-26 18:30:35 [ main:86 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\ERPServer.properties
+2015-10-26 18:30:35 [ main:86 ] - [ INFO ] init ConnectionPool...
+2015-10-26 18:30:35 [ main:86 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.19:8824;DatabaseName=ERPSystem
+2015-10-26 18:30:35 [ main:87 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-10-26 18:30:35 [ main:87 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-10-26 18:30:35 [ main:87 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-10-26 18:30:35 [ main:87 ] - [ DEBUG ] ConnectionPool MinPoolSize:1
+2015-10-26 18:30:35 [ main:87 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-10-26 18:30:35 [ main:87 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-10-26 18:30:35 [ main:87 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-10-26 18:30:36 [ main:251 ] - [ DEBUG ] 执行sql='SELECT erp_code AS erpcode,openid from weixin_info where isemailchecked=1'
+参数：
+
+2015-10-26 18:30:36 [ main:264 ] - [ DEBUG ] 执行sql='SELECT erp_code as erpcode,audit_pass_at as time from personal_info where erp_code in ('gys1508070001','4507','6867','5132','6946','6872','4945','GYS1508120004','5001','4987','5604','3624','5074','6456','3863','1739','6705','2286','4673','6815','5913','6396','235','6636','235','GYS1508270001','5409','1680','2412','6956','3005','6784','5748','2353','5819','5284','4436','6521','6761','5153','4850','6772','GYS1509250005','6909','6909','GYS1508140006','6508','6258','5486','2731','2320','5832','6796','4155','7009','6931','5198','7003','5842','3675','5218','6826','6659','4564','3886','5220','GYS1508100007','4834','2375','6720','3913','5589','6648','2527','GYS1509110007','6962','2390','1510','4125','4136','6395','016','4685','2851','6888','4278','amaz0037','6898','6753','5101','4322','4641','922','5542','2237','1188','GYS1508180002','6891','859')'
+参数：
+
+2015-10-26 18:37:34 [ main:0 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\PersonalInfo.properties
+2015-10-26 18:37:34 [ main:1 ] - [ INFO ] init ConnectionPool...
+2015-10-26 18:37:34 [ main:1 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:mysql://192.168.3.77:3306/sp_db?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8
+2015-10-26 18:37:34 [ main:1 ] - [ DEBUG ] ConnectionPool DriversClass:com.mysql.jdbc.Driver
+2015-10-26 18:37:34 [ main:1 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-10-26 18:37:34 [ main:1 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-10-26 18:37:34 [ main:1 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-10-26 18:37:34 [ main:1 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-10-26 18:37:34 [ main:1 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-10-26 18:37:34 [ main:1 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-10-26 18:37:34 [ main:88 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/weixin-gaeaservice-impl/target/classes/\config\ERPServer.properties
+2015-10-26 18:37:34 [ main:89 ] - [ INFO ] init ConnectionPool...
+2015-10-26 18:37:34 [ main:89 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.19:8824;DatabaseName=ERPSystem
+2015-10-26 18:37:34 [ main:89 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-10-26 18:37:34 [ main:89 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-10-26 18:37:34 [ main:89 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-10-26 18:37:34 [ main:89 ] - [ DEBUG ] ConnectionPool MinPoolSize:1
+2015-10-26 18:37:34 [ main:89 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-10-26 18:37:34 [ main:89 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-10-26 18:37:34 [ main:89 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-10-26 18:37:34 [ main:250 ] - [ DEBUG ] 执行sql='SELECT erp_code AS erpcode,openid from weixin_info where isemailchecked=1'
+参数：
+
+2015-10-26 18:37:34 [ main:263 ] - [ DEBUG ] 执行sql='SELECT erp_code as erpcode,audit_pass_at as time from personal_info where erp_code in ('gys1508070001','4507','6867','5132','6946','6872','4945','GYS1508120004','5001','4987','5604','3624','5074','6456','3863','1739','6705','2286','4673','6815','5913','6396','235','6636','235','GYS1508270001','5409','1680','2412','6956','3005','6784','5748','2353','5819','5284','4436','6521','6761','5153','4850','6772','GYS1509250005','6909','6909','GYS1508140006','6508','6258','5486','2731','2320','5832','6796','4155','7009','6931','5198','7003','5842','3675','5218','6826','6659','4564','3886','5220','GYS1508100007','4834','2375','6720','3913','5589','6648','2527','GYS1509110007','6962','2390','1510','4125','4136','6395','016','4685','2851','6888','4278','amaz0037','6898','6753','5101','4322','4641','922','5542','2237','1188','GYS1508180002','6891','859')'
+参数：
+

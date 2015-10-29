@@ -1,0 +1,223 @@
+2015-08-21 10:08:41 [ main:0 ] - [ INFO ] IGetAndInsertPackageProcessData startFri Aug 21 10:08:41 CST 2015
+2015-08-21 10:08:41 [ main:189 ] - [ INFO ] db config path:pathpathpathpathpathpathpath
+2015-08-21 10:08:41 [ main:190 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\ERPServer.properties
+2015-08-21 10:08:41 [ main:194 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\ERPServer.properties
+2015-08-21 10:08:41 [ main:211 ] - [ INFO ] init ConnectionPool...
+2015-08-21 10:08:41 [ main:212 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.19:8824;DatabaseName=ERPSystem
+2015-08-21 10:08:41 [ main:212 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-08-21 10:08:41 [ main:212 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-08-21 10:08:41 [ main:212 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-08-21 10:08:41 [ main:213 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-08-21 10:08:41 [ main:213 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-08-21 10:08:41 [ main:213 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-08-21 10:08:41 [ main:213 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-08-21 10:08:42 [ main:870 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\ADServer.properties
+2015-08-21 10:08:42 [ main:870 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\ADServer.properties
+2015-08-21 10:08:42 [ main:870 ] - [ INFO ] init ConnectionPool...
+2015-08-21 10:08:42 [ main:870 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.6:1433;DatabaseName=AutoGenerateOrderSystem_V2
+2015-08-21 10:08:42 [ main:870 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-08-21 10:08:42 [ main:870 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-08-21 10:08:42 [ main:870 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-08-21 10:08:42 [ main:870 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-08-21 10:08:42 [ main:870 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-08-21 10:08:42 [ main:870 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-08-21 10:08:42 [ main:870 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-08-21 10:08:42 [ main:871 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\readServer.properties
+2015-08-21 10:08:42 [ main:871 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\readServer.properties
+2015-08-21 10:08:42 [ main:880 ] - [ INFO ] init ConnectionPool...
+2015-08-21 10:08:42 [ main:880 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.19:8824;DatabaseName=OrderLifeCycle
+2015-08-21 10:08:42 [ main:880 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-08-21 10:08:42 [ main:880 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-08-21 10:08:42 [ main:880 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-08-21 10:08:42 [ main:880 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-08-21 10:08:42 [ main:880 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-08-21 10:08:42 [ main:880 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-08-21 10:08:42 [ main:880 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-08-21 10:08:42 [ main:880 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\writeServer.properties
+2015-08-21 10:08:42 [ main:880 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\writeServer.properties
+2015-08-21 10:08:42 [ main:881 ] - [ INFO ] init ConnectionPool...
+2015-08-21 10:08:42 [ main:881 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.4:1433;DatabaseName=OrderLifeCycle
+2015-08-21 10:08:42 [ main:881 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-08-21 10:08:42 [ main:881 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-08-21 10:08:42 [ main:881 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-08-21 10:08:42 [ main:881 ] - [ DEBUG ] ConnectionPool MinPoolSize:1
+2015-08-21 10:08:42 [ main:881 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-08-21 10:08:42 [ main:881 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-08-21 10:08:42 [ main:881 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-08-21 10:08:42 [ main:881 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\XQ2006Server.properties
+2015-08-21 10:08:42 [ main:881 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\XQ2006Server.properties
+2015-08-21 10:08:42 [ main:881 ] - [ INFO ] init ConnectionPool...
+2015-08-21 10:08:42 [ main:882 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.19:8824;DatabaseName=XQ2006
+2015-08-21 10:08:42 [ main:882 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-08-21 10:08:42 [ main:882 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-08-21 10:08:42 [ main:882 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-08-21 10:08:42 [ main:882 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-08-21 10:08:42 [ main:882 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-08-21 10:08:42 [ main:882 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-08-21 10:08:42 [ main:882 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-08-21 10:08:42 [ main:882 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\LogisticServer.properties
+2015-08-21 10:08:42 [ main:882 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\LogisticServer.properties
+2015-08-21 10:08:42 [ main:882 ] - [ INFO ] init ConnectionPool...
+2015-08-21 10:08:42 [ main:882 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.6:1433;DatabaseName=LogisticsSystem
+2015-08-21 10:08:42 [ main:882 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-08-21 10:08:42 [ main:882 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-08-21 10:08:42 [ main:883 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-08-21 10:08:42 [ main:883 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-08-21 10:08:42 [ main:883 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-08-21 10:08:42 [ main:883 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-08-21 10:08:42 [ main:883 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-08-21 10:08:42 [ main:883 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\OMSGermanyServer.properties
+2015-08-21 10:08:42 [ main:883 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\OMSGermanyServer.properties
+2015-08-21 10:08:42 [ main:884 ] - [ INFO ] init ConnectionPool...
+2015-08-21 10:08:42 [ main:884 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.6:1433;DatabaseName=OMS_Germany
+2015-08-21 10:08:42 [ main:884 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-08-21 10:08:42 [ main:884 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-08-21 10:08:42 [ main:884 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-08-21 10:08:42 [ main:884 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-08-21 10:08:42 [ main:884 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-08-21 10:08:42 [ main:884 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-08-21 10:08:42 [ main:884 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-08-21 10:08:42 [ main:885 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\OMSOverseaServer.properties
+2015-08-21 10:08:42 [ main:885 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\OMSOverseaServer.properties
+2015-08-21 10:08:42 [ main:885 ] - [ INFO ] init ConnectionPool...
+2015-08-21 10:08:42 [ main:885 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.19:8824;DatabaseName=OMS_Oversea
+2015-08-21 10:08:42 [ main:885 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-08-21 10:08:42 [ main:885 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-08-21 10:08:42 [ main:885 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-08-21 10:08:42 [ main:885 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-08-21 10:08:42 [ main:885 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-08-21 10:08:42 [ main:885 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-08-21 10:08:42 [ main:885 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-08-21 10:08:42 [ main:886 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\OMSV2PrintServer.properties
+2015-08-21 10:08:42 [ main:886 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\OMSV2PrintServer.properties
+2015-08-21 10:08:42 [ main:886 ] - [ INFO ] init ConnectionPool...
+2015-08-21 10:08:42 [ main:886 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.19:8824;DatabaseName=oms_v2_print
+2015-08-21 10:08:42 [ main:886 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-08-21 10:08:42 [ main:886 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-08-21 10:08:42 [ main:886 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-08-21 10:08:42 [ main:886 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-08-21 10:08:42 [ main:886 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-08-21 10:08:42 [ main:886 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-08-21 10:08:42 [ main:886 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-08-21 10:08:42 [ main:887 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\OMSV2PrintGZWServer.properties
+2015-08-21 10:08:42 [ main:887 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\OMSV2PrintGZWServer.properties
+2015-08-21 10:08:42 [ main:887 ] - [ INFO ] init ConnectionPool...
+2015-08-21 10:08:42 [ main:887 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://14.23.115.139:1433;DatabaseName=oms_v2_print
+2015-08-21 10:08:42 [ main:887 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-08-21 10:08:42 [ main:887 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-08-21 10:08:42 [ main:887 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-08-21 10:08:42 [ main:887 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-08-21 10:08:42 [ main:887 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-08-21 10:08:42 [ main:887 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-08-21 10:08:42 [ main:887 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-08-21 10:08:42 [ main:888 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\ERPTempDataServer.properties
+2015-08-21 10:08:42 [ main:888 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\ERPTempDataServer.properties
+2015-08-21 10:08:42 [ main:888 ] - [ INFO ] init ConnectionPool...
+2015-08-21 10:08:42 [ main:888 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.4:1433;DatabaseName=ERPTempData
+2015-08-21 10:08:42 [ main:888 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-08-21 10:08:42 [ main:888 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-08-21 10:08:42 [ main:888 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-08-21 10:08:42 [ main:888 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-08-21 10:08:42 [ main:888 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-08-21 10:08:42 [ main:888 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-08-21 10:08:42 [ main:888 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-08-21 10:08:42 [ main:888 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\OMSV2Server.properties
+2015-08-21 10:08:42 [ main:889 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\OMSV2Server.properties
+2015-08-21 10:08:42 [ main:889 ] - [ INFO ] init ConnectionPool...
+2015-08-21 10:08:42 [ main:889 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.6:1433;DatabaseName=OMS_V2
+2015-08-21 10:08:42 [ main:889 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-08-21 10:08:42 [ main:889 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-08-21 10:08:42 [ main:889 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-08-21 10:08:42 [ main:889 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-08-21 10:08:42 [ main:889 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-08-21 10:08:42 [ main:889 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-08-21 10:08:42 [ main:889 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-08-21 10:08:42 [ main:889 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\PostOrderManagerServer.properties
+2015-08-21 10:08:42 [ main:889 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\PostOrderManagerServer.properties
+2015-08-21 10:08:42 [ main:889 ] - [ INFO ] init ConnectionPool...
+2015-08-21 10:08:42 [ main:890 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.19:8824;DatabaseName=PostOrderManager
+2015-08-21 10:08:42 [ main:890 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-08-21 10:08:42 [ main:890 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-08-21 10:08:42 [ main:890 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-08-21 10:08:42 [ main:890 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-08-21 10:08:42 [ main:890 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-08-21 10:08:42 [ main:890 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-08-21 10:08:42 [ main:890 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-08-21 10:08:42 [ main:890 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\ERPTempDataServer.properties
+2015-08-21 10:08:42 [ main:890 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\APISystem.properties
+2015-08-21 10:08:42 [ main:890 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\APISystem.properties
+2015-08-21 10:08:42 [ main:890 ] - [ INFO ] init ConnectionPool...
+2015-08-21 10:08:42 [ main:891 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:mysql://192.168.3.74:3306/dbwwwhofancn_api?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8
+2015-08-21 10:08:42 [ main:891 ] - [ DEBUG ] ConnectionPool DriversClass:com.mysql.jdbc.Driver
+2015-08-21 10:08:42 [ main:891 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-08-21 10:08:42 [ main:891 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-08-21 10:08:42 [ main:891 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-08-21 10:08:42 [ main:891 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-08-21 10:08:42 [ main:891 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-08-21 10:08:42 [ main:891 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-08-21 10:08:42 [ main:891 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\CSOSNewServer.properties
+2015-08-21 10:08:42 [ main:891 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\CSOSNewServer.properties
+2015-08-21 10:08:42 [ main:891 ] - [ INFO ] init ConnectionPool...
+2015-08-21 10:08:42 [ main:891 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.4:1433;DatabaseName=CSOS_NEW_2
+2015-08-21 10:08:42 [ main:891 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-08-21 10:08:42 [ main:891 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-08-21 10:08:42 [ main:891 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-08-21 10:08:42 [ main:891 ] - [ DEBUG ] ConnectionPool MinPoolSize:1
+2015-08-21 10:08:42 [ main:892 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-08-21 10:08:42 [ main:892 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-08-21 10:08:42 [ main:892 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-08-21 10:08:42 [ main:892 ] - [ INFO ] db config path:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\EmailSystemServer.properties
+2015-08-21 10:08:42 [ main:892 ] - [ INFO ] creating DAOHelper configPath:D:/workspace/cn.hofan.ols.system/cn.hofan.ols.system.impl/target/classes/\config\EmailSystemServer.properties
+2015-08-21 10:08:42 [ main:892 ] - [ INFO ] init ConnectionPool...
+2015-08-21 10:08:42 [ main:892 ] - [ DEBUG ] ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.6:1433;DatabaseName=EmailSystem
+2015-08-21 10:08:42 [ main:892 ] - [ DEBUG ] ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2015-08-21 10:08:42 [ main:892 ] - [ DEBUG ] ConnectionPool UserName:***
+2015-08-21 10:08:42 [ main:892 ] - [ DEBUG ] ConnectionPool PassWord:***
+2015-08-21 10:08:42 [ main:892 ] - [ DEBUG ] ConnectionPool MinPoolSize:5
+2015-08-21 10:08:42 [ main:892 ] - [ DEBUG ] ConnectionPool MaxPoolSize:50
+2015-08-21 10:08:42 [ main:892 ] - [ DEBUG ] ConnectionPool IdleTimeout:30
+2015-08-21 10:08:42 [ main:938 ] - [ DEBUG ] ConnectionPool AutoShrink:false
+2015-08-21 10:08:44 [ main:3056 ] - [ DEBUG ] 执行sql=' SELECT PackageGUID = NEWID(),FastFlowName='FBA通用线路', Gesamtpreis = H.FinalPrice ,Currency = H.currency , OrderGUID = H.OrderGuid ,ProductCode = sku , Qty = quantity_shipped ,Referenznummer = O.amazon_order_item_id ,SingleGuid = NULL, [State] = CASE WHEN ISNULL(O.shipment_date, '') = '' THEN 'processing' ELSE 'posted' END ,PostDate = O.shipment_date,CreateTime = GETDATE() ,TrackingNumber = O.tracking_number ,S.StockCode ,Barcode = NULL, Packagelevel =  0,LineCode = 'FBA_COMMON_LINE'  FROM  xq2006..fba_order_shipped AS O WITH ( NOLOCK ) INNER JOIN OrderLifeCycle.dbo.OrderHeadInfo AS H WITH ( NOLOCK ) ON H.SalePlatformID = 2 AND H.OriginalOrderNo = O.amazon_order_id LEFT JOIN ERPSystem..tb_FBAGrossMargin_Area AS A WITH ( NOLOCK ) ON O.fulfillment_center_id = A.FulfillmentCenter LEFT JOIN ERPSystem..Stock AS S ON S.StockID = A.StockID WHERE O.created_at>=? AND O.created_at<=?'
+参数：param1=2015-07-17 12:25:43.587;param2=2015-07-17 12:25:43.587;
+
+2015-08-21 10:08:44 [ main:3368 ] - [ INFO ] gaea 中Cache 缓存失效
+2015-08-21 10:08:44 [ main:3512 ] - [ DEBUG ] 执行sql=' SELECT LineCode ,FastFlowName ,DeliveryDay,FromRegion AS StockCode,PostWayType , PostWayName FROM dbo.V_LGS_ALL_LineMapping WHERE LineStatus=1'
+参数：
+
+2015-08-21 10:08:45 [ main:3603 ] - [ DEBUG ] 执行sql=' SELECT ps.Code,ps.Length,ps.Width,ps.Height,mcs.zhongliang AS weight,CAST(REPLACE(jiazhi,'USD:','') AS DECIMAL) as  declareValue  FROM dbo.ProductSize ps JOIN dbo.M_caigou_system mcs ON ps.Code=mcs.UserCode WHERE ps.Code=?'
+参数：param1=UB5643;
+
+2015-08-21 10:08:45 [ main:3652 ] - [ DEBUG ] 执行sql=' SELECT ps.Code,ps.Length,ps.Width,ps.Height,mcs.zhongliang AS weight,CAST(REPLACE(jiazhi,'USD:','') AS DECIMAL) as  declareValue  FROM dbo.ProductSize ps JOIN dbo.M_caigou_system mcs ON ps.Code=mcs.UserCode WHERE ps.Code=?'
+参数：param1=UA5350;
+
+2015-08-21 10:08:45 [ main:3665 ] - [ DEBUG ] 执行sql=' SELECT ps.Code,ps.Length,ps.Width,ps.Height,mcs.zhongliang AS weight,CAST(REPLACE(jiazhi,'USD:','') AS DECIMAL) as  declareValue  FROM dbo.ProductSize ps JOIN dbo.M_caigou_system mcs ON ps.Code=mcs.UserCode WHERE ps.Code=?'
+参数：param1=UA5345;
+
+2015-08-21 10:08:45 [ main:3679 ] - [ DEBUG ] 执行sql=' SELECT ps.Code,ps.Length,ps.Width,ps.Height,mcs.zhongliang AS weight,CAST(REPLACE(jiazhi,'USD:','') AS DECIMAL) as  declareValue  FROM dbo.ProductSize ps JOIN dbo.M_caigou_system mcs ON ps.Code=mcs.UserCode WHERE ps.Code=?'
+参数：param1=UB5137;
+
+2015-08-21 10:08:45 [ main:3689 ] - [ DEBUG ] 执行sql=' SELECT ps.Code,ps.Length,ps.Width,ps.Height,mcs.zhongliang AS weight,CAST(REPLACE(jiazhi,'USD:','') AS DECIMAL) as  declareValue  FROM dbo.ProductSize ps JOIN dbo.M_caigou_system mcs ON ps.Code=mcs.UserCode WHERE ps.Code=?'
+参数：param1=UB5650;
+
+2015-08-21 10:08:45 [ main:3698 ] - [ DEBUG ] 执行sql=' SELECT ps.Code,ps.Length,ps.Width,ps.Height,mcs.zhongliang AS weight,CAST(REPLACE(jiazhi,'USD:','') AS DECIMAL) as  declareValue  FROM dbo.ProductSize ps JOIN dbo.M_caigou_system mcs ON ps.Code=mcs.UserCode WHERE ps.Code=?'
+参数：param1=UC5646;
+
+2015-08-21 10:08:45 [ main:3707 ] - [ DEBUG ] 执行sql=' SELECT ps.Code,ps.Length,ps.Width,ps.Height,mcs.zhongliang AS weight,CAST(REPLACE(jiazhi,'USD:','') AS DECIMAL) as  declareValue  FROM dbo.ProductSize ps JOIN dbo.M_caigou_system mcs ON ps.Code=mcs.UserCode WHERE ps.Code=?'
+参数：param1=D04049;
+
+2015-08-21 10:08:45 [ main:3724 ] - [ DEBUG ] 执行sql=' SELECT ps.Code,ps.Length,ps.Width,ps.Height,mcs.zhongliang AS weight,CAST(REPLACE(jiazhi,'USD:','') AS DECIMAL) as  declareValue  FROM dbo.ProductSize ps JOIN dbo.M_caigou_system mcs ON ps.Code=mcs.UserCode WHERE ps.Code=?'
+参数：param1=D03189;
+
+2015-08-21 10:08:45 [ main:3740 ] - [ DEBUG ] 执行sql=' SELECT ps.Code,ps.Length,ps.Width,ps.Height,mcs.zhongliang AS weight,CAST(REPLACE(jiazhi,'USD:','') AS DECIMAL) as  declareValue  FROM dbo.ProductSize ps JOIN dbo.M_caigou_system mcs ON ps.Code=mcs.UserCode WHERE ps.Code=?'
+参数：param1=UA5709;
+
+2015-08-21 10:08:45 [ main:3749 ] - [ DEBUG ] 执行sql=' SELECT ps.Code,ps.Length,ps.Width,ps.Height,mcs.zhongliang AS weight,CAST(REPLACE(jiazhi,'USD:','') AS DECIMAL) as  declareValue  FROM dbo.ProductSize ps JOIN dbo.M_caigou_system mcs ON ps.Code=mcs.UserCode WHERE ps.Code=?'
+参数：param1=UB5644;
+
+2015-08-21 10:08:45 [ main:3758 ] - [ DEBUG ] 执行sql=' SELECT ps.Code,ps.Length,ps.Width,ps.Height,mcs.zhongliang AS weight,CAST(REPLACE(jiazhi,'USD:','') AS DECIMAL) as  declareValue  FROM dbo.ProductSize ps JOIN dbo.M_caigou_system mcs ON ps.Code=mcs.UserCode WHERE ps.Code=?'
+参数：param1=IT00583;
+
+2015-08-21 10:08:45 [ main:3766 ] - [ DEBUG ] 执行sql=' SELECT ps.Code,ps.Length,ps.Width,ps.Height,mcs.zhongliang AS weight,CAST(REPLACE(jiazhi,'USD:','') AS DECIMAL) as  declareValue  FROM dbo.ProductSize ps JOIN dbo.M_caigou_system mcs ON ps.Code=mcs.UserCode WHERE ps.Code=?'
+参数：param1=IT00337;
+
+2015-08-21 10:08:50 [ main:8916 ] - [ INFO ] IGetAndInsertPackageProcessData endFri Aug 21 10:08:50 CST 2015
