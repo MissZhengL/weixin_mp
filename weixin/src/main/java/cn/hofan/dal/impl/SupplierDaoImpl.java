@@ -236,10 +236,10 @@ public class SupplierDaoImpl implements ISupplierDao {
 	@Override
 	public List<OrderQueryInfo> getBuytimeAndNum(String erpcode, String time)
 			throws Exception {
-		String sql = "SELECT  PODate AS BuyerTime,COUNT(podate) AS Num FROM dbo.tbPOPlan pop LEFT JOIN dbo.tbPO po ON po.POPlanID = pop.POPlanID "
-				+ "LEFT JOIN xq2006..btype b ON b.typeId = po.btypeid "
-				+ "LEFT JOIN xq2006..ptype p ON p.UserCode = pop.Code  "
-				+ "LEFT JOIN ( SELECT  JHDOrderNo , MaterialCode , MAX(JHDTotal) AS JHDTotal , SUM(DEliveryNum) AS DEliveryNum FROM    dbo.erp_DeliveryInfo WHERE   status = 6 GROUP BY JHDOrderNo , MaterialCode ) di ON di.JHDOrderNo = po.JHDNumber "
+		String sql = "SELECT  PODate AS BuyerTime,COUNT(podate) AS Num FROM dbo.tbPOPlan pop WITH (NOLOCK) LEFT JOIN dbo.tbPO po ON po.POPlanID = pop.POPlanID "
+				+ "LEFT JOIN xq2006..btype b WITH (NOLOCK) ON b.typeId = po.btypeid "
+				+ "LEFT JOIN xq2006..ptype p WITH (NOLOCK) ON p.UserCode = pop.Code  "
+				+ "LEFT JOIN ( SELECT  JHDOrderNo , MaterialCode , MAX(JHDTotal) AS JHDTotal , SUM(DEliveryNum) AS DEliveryNum FROM    dbo.erp_DeliveryInfo WITH (NOLOCK) WHERE   status = 6 GROUP BY JHDOrderNo , MaterialCode ) di ON di.JHDOrderNo = po.JHDNumber "
 				+ "AND di.MaterialCode = pop.Code WHERE   1 = 1 "
 				+ "AND pop.StatusID IN ( 41, 70, 80 ) "
 				+ "AND ( di.JHDTotal != di.DEliveryNum OR di.JHDTotal IS NULL ) "

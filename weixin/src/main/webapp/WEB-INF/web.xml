@@ -11,7 +11,7 @@
   <servlet>
 		<servlet-name>initServlet</servlet-name>
 		<servlet-class>cn.hofan.servlet.InitServlet</servlet-class>
-		<!-- 配置获取access_token所需参数appid和appsecret -->
+		
 		<init-param>
 			<param-name>appid</param-name>
 			<param-value>wx514fa56faa4f60b6</param-value>

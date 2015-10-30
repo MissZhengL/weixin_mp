@@ -19,6 +19,7 @@ public interface ISendallService {
 	 * 按组群发
 	 * --默认组是 0 ;
 	 * --星标组是 2 ;
+	 * --临时组是 101 [删除此组后新建,会使此组id递增] ;
 	 * @param groupId
 	 * @return
 	 * @throws Exception 

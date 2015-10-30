@@ -26,16 +26,15 @@ public class InitServlet extends HttpServlet {
 		TokenThread.appid = getInitParameter("appid");
 		TokenThread.appsecret = getInitParameter("appsecret");
 
-		log.info("weixin api appid:{"+TokenThread.appid+"}");
-		log.info("weixin api appsecret:{"+TokenThread.appsecret+"}");
+		log.info("从web.xml中读取配置参数appid:{"+TokenThread.appid+"}");
+		log.info("从web.xml中读取配置参数appsecret:{"+TokenThread.appsecret+"}");
 
 		// 未配置appid、appsecret时给出提示
 		if ("".equals(TokenThread.appid) || "".equals(TokenThread.appsecret)) {
-			log.error("appid and appsecret configuration error, please check carefully.");
+			log.error("从web.xml中读取配置参数appid和appsecret失败,请检查是否配置了参数");
 		} else {
 			// 启动定时获取access_token的线程
-//			new Thread(new TokenThread()).start();
-			new TokenThread().run();
+			new Thread(new TokenThread()).start();
 		}
 	}
 }
