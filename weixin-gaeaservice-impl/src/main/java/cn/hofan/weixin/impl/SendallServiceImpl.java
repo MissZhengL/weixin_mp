@@ -5,11 +5,13 @@
 package cn.hofan.weixin.impl;
 
 import java.io.File;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import cn.hofan.spat.db.dal.sql.IPreparedStatementHandler;
 import cn.hofan.spat.db.dal.sql.select.IRowCallbackHandler;
 import cn.hofan.spat.db.dal.sql.select.SQLQuery;
 import cn.hofan.weixin.bean.OpenidAndErpcode;
@@ -43,6 +45,10 @@ public class SendallServiceImpl implements ISendallService {
 	 */
 	@Override
 	public boolean sendallByGroup(int groupId) throws Exception {
+		if(isPushed("WeiXinPush")){
+			log.info("今天已经推送过了,不用再推了.");
+			return true;
+		}
 		//1.先获取已绑定用户的openid和erpcode
 		List<OpenidAndErpcode> list = getOpenidAndErpcodeOfChecked();
 		List<String> listresult = new ArrayList<String>();
@@ -59,10 +65,47 @@ public class SendallServiceImpl implements ISendallService {
 			Thread.sleep(5*1000);
 			//4.把临时组的openid移动回星标组 id为2
 			if(moveBackToStarGroup(listresult)){
+				savaPushRecord();
 				return true;
 			}
 		} 
 		return false;
+	}
+
+	/**
+	 * @throws Exception 
+	 * 
+	 */
+	private void savaPushRecord() throws Exception {
+		String sql = "INSERT into weixin_timing_record(taskname,issend,time) VALUES ('WeiXinPush',1,CURDATE())";
+		DBHelper.daoHelperSP.sql.executeUpdate(sql, new IPreparedStatementHandler() {
+			
+			@Override
+			public Object exec(PreparedStatement ps, Object[] objs) throws SQLException {
+				return ps.executeUpdate();
+			}
+		}, new Object[]{});
+	}
+
+	/**
+	 * 
+	 * @return
+	 * @throws Exception 
+	 */
+	private boolean isPushed(String WeiXinPush) throws Exception {
+		String sql = "SELECT issend from weixin_timing_record WHERE taskname='"+WeiXinPush+"' and time=CURDATE()";
+		boolean result = false;
+		result = (boolean) DBHelper.daoHelperSP.sql.execQuery(sql, new IRowCallbackHandler() {
+			
+			@Override
+			public Object exec(ResultSet rs) throws SQLException {
+				while(rs.next()){
+					return true;
+				}
+				return false;
+			}
+		});
+		return result;
 	}
 
 	/**
