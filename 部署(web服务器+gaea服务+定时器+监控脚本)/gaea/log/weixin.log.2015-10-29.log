@@ -1,0 +1,459 @@
+[10-29 17:58:50 439 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[10-29 17:58:50 448 INFO ] [main] server.bootstrap.Main - user.dir: /opt/gaea/bin
+[10-29 17:58:50 448 INFO ] [main] server.bootstrap.Main - rootPath: /opt/gaea/bin/../
+[10-29 17:58:50 449 INFO ] [main] server.bootstrap.Main - service gaea_config.xml: /opt/gaea/bin/../service/deploy/weixin/gaea_config.xml
+[10-29 17:58:50 450 INFO ] [main] server.bootstrap.Main - default gaea_config.xml: /opt/gaea/bin/../conf/gaea_config.xml
+[10-29 17:58:50 450 INFO ] [main] server.bootstrap.Main - service gaea_log4j.xml: /opt/gaea/bin/../service/deploy/weixin/gaea_log4j.xml
+[10-29 17:58:50 451 INFO ] [main] server.bootstrap.Main - default gaea_log4j.xml: /opt/gaea/bin/../conf/gaea_log4j.xml
+[10-29 17:58:50 451 INFO ] [main] server.bootstrap.Main - load service config...
+[10-29 17:58:50 987 INFO ] [main] server.bootstrap.Main - gaea.service.name: weixin
+[10-29 17:58:50 988 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[10-29 17:58:51 032 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/aspectjweaver-1.6.2.jar
+[10-29 17:58:51 033 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/com.bj58.spat.gaea.serializer-1.0.0.jar
+[10-29 17:58:51 033 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/junit-4.10.jar
+[10-29 17:58:51 034 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/ezmorph-1.0.3.jar
+[10-29 17:58:51 034 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/commons-lang-2.4.jar
+[10-29 17:58:51 035 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/com.bj58.spat.gaea.protocol-1.0.0.jar
+[10-29 17:58:51 036 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/spring-aop-4.0.3.RELEASE.jar
+[10-29 17:58:51 036 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/spring-context-4.0.3.RELEASE.jar
+[10-29 17:58:51 037 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/slf4j-api-1.6.2.jar
+[10-29 17:58:51 038 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/aopalliance-1.0.jar
+[10-29 17:58:51 038 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/aspectjrt-1.6.2.jar
+[10-29 17:58:51 039 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/commons-lang-2.6.jar
+[10-29 17:58:51 040 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/velocity-1.7.jar
+[10-29 17:58:51 040 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/commons-collections-3.2.1.jar
+[10-29 17:58:51 041 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/weixin-gaeaservice-contract-0.0.1-SNAPSHOT.jar
+[10-29 17:58:51 042 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/commons-logging-1.1.1.jar
+[10-29 17:58:51 050 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/customersystem-infrastructure-0.0.1-SNAPSHOT.jar
+[10-29 17:58:51 051 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/cn.hofan.spat.dal-0.0.2-20140527.064811-3.jar
+[10-29 17:58:51 052 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/spring-expression-4.0.3.RELEASE.jar
+[10-29 17:58:51 052 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/commons-beanutils-1.8.3.jar
+[10-29 17:58:51 053 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/slf4j-log4j12-1.6.2.jar
+[10-29 17:58:51 054 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/spring-core-4.0.3.RELEASE.jar
+[10-29 17:58:51 054 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/spring-beans-4.0.3.RELEASE.jar
+[10-29 17:58:51 055 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/weixin-gaeaservice-impl-0.0.1-SNAPSHOT.jar
+[10-29 17:58:51 056 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/hamcrest-core-1.1.jar
+[10-29 17:58:51 056 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/log4j-1.2.12.jar
+[10-29 17:58:51 057 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/cn.hofan.spat.dal-0.0.2-20140909.014911-7.jar
+[10-29 17:58:51 057 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/json-lib-2.1-rev2.jar
+[10-29 17:58:51 058 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/cn.hofan.spat.memcached-0.0.1-SNAPSHOT.jar
+[10-29 17:58:51 059 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/deploy/weixin/cn.hofan.spat.dal-0.0.1-SNAPSHOT.jar
+[10-29 17:58:51 059 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/sqljdbc4-4.0.jar
+[10-29 17:58:51 060 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/jackson-core-asl-1.9.13.jar
+[10-29 17:58:51 061 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/jackson-mapper-asl-1.9.13.jar
+[10-29 17:58:51 061 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/jcl-over-slf4j-1.6.1.jar
+[10-29 17:58:51 062 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/com.bj58.spat.beanquery-0.0.1-SNAPSHOT.jar
+[10-29 17:58:51 063 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/jyaml-1.3.jar
+[10-29 17:58:51 063 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/com.bj58.spat.core-0.0.1-SNAPSHOT.jar
+[10-29 17:58:51 064 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/stringtemplate-3.2.1.jar
+[10-29 17:58:51 064 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/cn.hofan.spat.dal-0.0.2-SNAPSHOT.jar
+[10-29 17:58:51 065 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/commons-codec-1.9.jar
+[10-29 17:58:51 065 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/antlr-runtime-3.3.jar
+[10-29 17:58:51 066 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/mysql-connector-java-5.1.6-bin.jar
+[10-29 17:58:51 066 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/slf4j-log4j12-1.6.1.jar
+[10-29 17:58:51 067 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/com.bj58.spat.dao-1.0.0-SNAPSHOT.jar
+[10-29 17:58:51 067 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/jaxrpc.jar
+[10-29 17:58:51 068 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/slf4j-api-1.6.1.jar
+[10-29 17:58:51 068 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/com.bj58.spat.memcached-0.0.1-rc1.jar
+[10-29 17:58:51 069 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/dom4j-1.6.1.jar
+[10-29 17:58:51 069 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/json-20080701.jar
+[10-29 17:58:51 070 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/stax-api-1.0.1.jar
+[10-29 17:58:51 071 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/httpclient-4.0.1.jar
+[10-29 17:58:51 071 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/gson-2.2.4.jar
+[10-29 17:58:51 072 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/cn.hofan.spat.threadpool-0.0.1-SNAPSHOT.jar
+[10-29 17:58:51 072 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/antlr-3.3.jar
+[10-29 17:58:51 073 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/httpcore-4.0.1.jar
+[10-29 17:58:51 073 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/commons-lang3-3.3.2.jar
+[10-29 17:58:51 074 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/com.bj58.spat.gaea.server-1.0.0.jar
+[10-29 17:58:51 075 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/com.bj58.spat.gaea.client-1.0.0.jar
+[10-29 17:58:51 075 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/xmlbeans-2.3.0.jar
+[10-29 17:58:51 076 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/commons-io-2.0.1.jar
+[10-29 17:58:51 076 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/commons-discovery-0.2.jar
+[10-29 17:58:51 076 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/mysql-connector-java-5.1.6.jar
+[10-29 17:58:51 077 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/service/lib/xml-apis-1.0.b2.jar
+[10-29 17:58:51 077 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/lib/commons-logging.jar
+[10-29 17:58:51 078 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/lib/netty-3.1.5.GA.jar
+[10-29 17:58:51 079 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/lib/json-2.0.1.jar
+[10-29 17:58:51 079 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/lib/antlrall-2.7.2.jar
+[10-29 17:58:51 080 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/lib/tools.jar
+[10-29 17:58:51 080 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/lib/com.bj58.spat.json-1.1.0-SNAPSHOT.jar
+[10-29 17:58:51 081 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/lib/javassist.jar
+[10-29 17:58:51 081 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:/opt/gaea/lib/log4j-1.2.15.jar
+[10-29 17:58:51 082 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[10-29 17:58:51 083 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[10-29 17:58:51 090 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:/opt/gaea/bin/../service/deploy/weixin/
+[10-29 17:58:51 927 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.AnnotationDefault  fromCache:true
+[10-29 17:58:51 932 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Attribute  fromCache:true
+[10-29 17:58:51 937 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.AttributeUtils  fromCache:true
+[10-29 17:58:51 944 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ClassFormatException  fromCache:true
+[10-29 17:58:51 950 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ClassParser  fromCache:true
+[10-29 17:58:51 956 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ClassVisitor  fromCache:true
+[10-29 17:58:51 963 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Code  fromCache:true
+[10-29 17:58:51 969 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.CodeException  fromCache:true
+[10-29 17:58:51 977 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Constant  fromCache:true
+[10-29 17:58:51 982 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ConstantCP  fromCache:true
+[10-29 17:58:51 989 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ConstantClass  fromCache:true
+[10-29 17:58:51 995 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ConstantDouble  fromCache:true
+[10-29 17:58:52 001 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ConstantFieldref  fromCache:true
+[10-29 17:58:52 007 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ConstantFloat  fromCache:true
+[10-29 17:58:52 014 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ConstantInteger  fromCache:true
+[10-29 17:58:52 019 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ConstantInterfaceMethodref  fromCache:true
+[10-29 17:58:52 026 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ConstantLong  fromCache:true
+[10-29 17:58:52 031 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ConstantMethodref  fromCache:true
+[10-29 17:58:52 037 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ConstantNameAndType  fromCache:true
+[10-29 17:58:52 042 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ConstantObject  fromCache:true
+[10-29 17:58:52 047 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ConstantPool  fromCache:true
+[10-29 17:58:52 052 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ConstantString  fromCache:true
+[10-29 17:58:52 056 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ConstantUtf8  fromCache:true
+[10-29 17:58:52 063 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ConstantValue  fromCache:true
+[10-29 17:58:52 088 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Deprecated  fromCache:true
+[10-29 17:58:52 094 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.EnclosingMethod  fromCache:true
+[10-29 17:58:52 098 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.ExceptionTable  fromCache:true
+[10-29 17:58:52 101 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Field  fromCache:true
+[10-29 17:58:52 104 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.FieldOrMethod  fromCache:true
+[10-29 17:58:52 108 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.GenericSignatureParser  fromCache:true
+[10-29 17:58:52 115 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.InnerClass  fromCache:true
+[10-29 17:58:52 118 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.InnerClasses  fromCache:true
+[10-29 17:58:52 122 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.JavaClass  fromCache:true
+[10-29 17:58:52 126 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.LineNumber  fromCache:true
+[10-29 17:58:52 129 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.LineNumberTable  fromCache:true
+[10-29 17:58:52 136 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.LocalVariable  fromCache:true
+[10-29 17:58:52 140 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.LocalVariableTable  fromCache:true
+[10-29 17:58:52 148 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.LocalVariableTypeTable  fromCache:true
+[10-29 17:58:52 151 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Method  fromCache:true
+[10-29 17:58:52 155 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Modifiers  fromCache:true
+[10-29 17:58:52 159 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Node  fromCache:true
+[10-29 17:58:52 164 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.PMGClass  fromCache:true
+[10-29 17:58:52 166 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Signature$ArrayTypeSignature  fromCache:true
+[10-29 17:58:52 170 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Signature$BaseTypeSignature  fromCache:true
+[10-29 17:58:52 193 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Signature$ClassSignature  fromCache:true
+[10-29 17:58:52 200 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Signature$ClassTypeSignature  fromCache:true
+[10-29 17:58:52 203 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Signature$FieldTypeSignature  fromCache:true
+[10-29 17:58:52 207 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Signature$FormalTypeParameter  fromCache:true
+[10-29 17:58:52 215 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Signature$MethodTypeSignature  fromCache:true
+[10-29 17:58:52 224 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Signature$MyByteArrayInputStream  fromCache:true
+[10-29 17:58:52 227 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Signature$SimpleClassTypeSignature  fromCache:true
+[10-29 17:58:52 235 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Signature$TypeArgument  fromCache:true
+[10-29 17:58:52 250 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Signature$TypeSignature  fromCache:true
+[10-29 17:58:52 257 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Signature$TypeVariableSignature  fromCache:true
+[10-29 17:58:52 262 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Signature  fromCache:true
+[10-29 17:58:52 270 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.SourceFile  fromCache:true
+[10-29 17:58:52 274 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.StackMap  fromCache:true
+[10-29 17:58:52 278 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.StackMapEntry  fromCache:true
+[10-29 17:58:52 282 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.StackMapType  fromCache:true
+[10-29 17:58:52 286 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Synthetic  fromCache:true
+[10-29 17:58:52 291 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Unknown  fromCache:true
+[10-29 17:58:52 294 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Utility$ResultHolder  fromCache:true
+[10-29 17:58:52 298 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.Utility  fromCache:true
+[10-29 17:58:52 303 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.annotation.AnnotationElementValueGen  fromCache:true
+[10-29 17:58:52 307 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.annotation.AnnotationGen  fromCache:true
+[10-29 17:58:52 310 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.annotation.ArrayElementValueGen  fromCache:true
+[10-29 17:58:52 314 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.annotation.ClassElementValueGen  fromCache:true
+[10-29 17:58:52 320 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.annotation.ElementNameValuePairGen  fromCache:true
+[10-29 17:58:52 324 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.annotation.ElementValueGen  fromCache:true
+[10-29 17:58:52 327 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.annotation.EnumElementValueGen  fromCache:true
+[10-29 17:58:52 332 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.annotation.RuntimeAnnotations  fromCache:true
+[10-29 17:58:52 335 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.annotation.RuntimeInvisibleAnnotations  fromCache:true
+[10-29 17:58:52 339 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.annotation.RuntimeInvisibleParameterAnnotations  fromCache:true
+[10-29 17:58:52 342 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.annotation.RuntimeParameterAnnotations  fromCache:true
+[10-29 17:58:52 362 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.annotation.RuntimeVisibleAnnotations  fromCache:true
+[10-29 17:58:52 366 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.annotation.RuntimeVisibleParameterAnnotations  fromCache:true
+[10-29 17:58:52 370 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.aspectj.apache.bcelfile.annotation.SimpleElementValueGen  fromCache:true
+[10-29 17:58:53 046 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: com.bj58.spat.gaea.serializeres.DBNull  fromCache:true
+[10-29 17:58:53 049 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: com.bj58.spat.gaea.serializeres.GKeyValuePair  fromCache:true
+[10-29 17:58:54 462 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.InstrumentationLoadTimeWeaver$InstrumentationAccessor  fromCache:true
+[10-29 17:58:54 466 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.SimpleLoadTimeWeaver  fromCache:true
+[10-29 17:58:54 469 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.WeavingTransformer  fromCache:true
+[10-29 17:58:54 472 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.ResourceOverridingShadowingClassLoader  fromCache:true
+[10-29 17:58:54 475 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.ReflectiveLoadTimeWeaver  fromCache:true
+[10-29 17:58:54 478 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.SimpleThrowawayClassLoader  fromCache:true
+[10-29 17:58:54 483 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.ResourceOverridingShadowingClassLoader$1  fromCache:true
+[10-29 17:58:54 491 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.SimpleInstrumentableClassLoader  fromCache:true
+[10-29 17:58:54 503 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.InstrumentationLoadTimeWeaver  fromCache:true
+[10-29 17:58:54 509 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.LoadTimeWeaver  fromCache:true
+[10-29 17:58:54 515 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.ShadowingClassLoader  fromCache:true
+[10-29 17:58:54 520 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.InstrumentationLoadTimeWeaver$FilteringClassFileTransformer  fromCache:true
+[10-29 17:58:54 526 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.jboss.JBossMCAdapter  fromCache:true
+[10-29 17:58:54 532 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.jboss.JBossLoadTimeWeaver  fromCache:true
+[10-29 17:58:54 538 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.jboss.JBossMCTranslatorAdapter  fromCache:true
+[10-29 17:58:54 542 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.jboss.JBossModulesAdapter  fromCache:true
+[10-29 17:58:54 545 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.jboss.JBossClassLoaderAdapter  fromCache:true
+[10-29 17:58:54 549 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.tomcat.TomcatLoadTimeWeaver  fromCache:true
+[10-29 17:58:54 555 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.glassfish.GlassFishLoadTimeWeaver  fromCache:true
+[10-29 17:58:54 559 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.weblogic.WebLogicClassPreProcessorAdapter  fromCache:true
+[10-29 17:58:54 562 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.weblogic.WebLogicLoadTimeWeaver  fromCache:true
+[10-29 17:58:54 573 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.weblogic.WebLogicClassLoaderAdapter  fromCache:true
+[10-29 17:58:54 581 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.websphere.WebSphereClassPreDefinePlugin$Dummy  fromCache:true
+[10-29 17:58:54 584 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.websphere.WebSphereLoadTimeWeaver  fromCache:true
+[10-29 17:58:54 586 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.websphere.WebSphereClassPreDefinePlugin  fromCache:true
+[10-29 17:58:54 589 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.instrumentloading.websphere.WebSphereClassLoaderAdapter  fromCache:true
+[10-29 17:58:56 443 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.EmptyMethodVisitor  fromCache:true
+[10-29 17:58:56 446 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.MethodMetadataReadingVisitor  fromCache:true
+[10-29 17:58:56 448 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.MetadataReader  fromCache:true
+[10-29 17:58:56 459 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.CachingMetadataReaderFactory$1  fromCache:true
+[10-29 17:58:56 465 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.SimpleMetadataReader  fromCache:true
+[10-29 17:58:56 469 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.RecursiveAnnotationAttributesVisitor  fromCache:true
+[10-29 17:58:56 472 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.AnnotationAttributesReadingVisitor  fromCache:true
+[10-29 17:58:56 474 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.ClassMetadataReadingVisitor  fromCache:true
+[10-29 17:58:56 477 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.EmptyFieldVisitor  fromCache:true
+[10-29 17:58:56 479 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.AbstractRecursiveAnnotationVisitor  fromCache:true
+[10-29 17:58:56 482 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.RecursiveAnnotationArrayVisitor  fromCache:true
+[10-29 17:58:56 486 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.AnnotationMetadataReadingVisitor  fromCache:true
+[10-29 17:58:56 488 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.EmptyAnnotationVisitor  fromCache:true
+[10-29 17:58:56 491 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.MetadataReaderFactory  fromCache:true
+[10-29 17:58:56 494 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.AnnotationReadingVisitorUtils  fromCache:true
+[10-29 17:58:56 497 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.SimpleMetadataReaderFactory  fromCache:true
+[10-29 17:58:56 501 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.core.typereading.CachingMetadataReaderFactory  fromCache:true
+[10-29 17:58:56 961 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.beans.factory.support.CglibSuingInstantiationStrategy$CglibSuCreator  fromCache:true
+[10-29 17:58:56 964 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.beans.factory.support.CglibSuingInstantiationStrategy$MethodOverrideCallbackFilter  fromCache:true
+[10-29 17:58:56 968 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.beans.factory.support.CglibSuingInstantiationStrategy$CglibIdentitySupport  fromCache:true
+[10-29 17:58:56 989 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.beans.factory.support.CglibSuingInstantiationStrategy$ReplaceOverrideMethodInterceptor  fromCache:true
+[10-29 17:58:57 032 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.beans.factory.support.CglibSuingInstantiationStrategy$LookupOverrideMethodInterceptor  fromCache:true
+[10-29 17:58:57 043 DEBUG] [main] deploy.hotdeploy.DynamicClassLoader - find class jarPath:   className: org.springframework.beans.factory.support.CglibSuingInstantiationStrategy  fromCache:true
+[10-29 17:58:59 585 INFO ] [main] deploy.bytecode.ScanClass - finish scan jar
+[10-29 17:58:59 592 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy v1...
+[10-29 17:58:59 592 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading => ISendallServiceProxyStub1446112739586
+[10-29 17:58:59 592 INFO ] [main] deploy.bytecode.ProxyClassCreater - class name:cn.hofan.weixin.impl.SendallServiceImpl
+[10-29 17:58:59 991 DEBUG] [main] deploy.bytecode.ProxyClassCreater - create method:sendallByGroup
+[10-29 17:59:00 087 DEBUG] [main] deploy.bytecode.ProxyClassCreater - method(sendallByGroup) source code:public com.bj58.spat.gaea.server.contract.context.GaeaResponse sendallByGroup(com.bj58.spat.gaea.server.contract.context.GaeaContext context) throws com.bj58.spat.gaea.server.util.ServiceFrameException {com.bj58.spat.gaea.server.core.convert.IConvert convert = com.bj58.spat.gaea.server.core.convert.ConvertFacotry.getConvert(context.getGaeaRequest().getProtocol());com.bj58.spat.gaea.protocol.sdp.RequestProtocol request = (com.bj58.spat.gaea.protocol.sdp.RequestProtocol)context.getGaeaRequest().getProtocol().getSdpEntity();java.util.List listKV = request.getParaKVList();if(listKV.size() == 1 && (((com.bj58.spat.gaea.protocol.utility.KeyValuePair)listKV.get(0)).getKey().toString().equalsIgnoreCase("int")|| ((com.bj58.spat.gaea.protocol.utility.KeyValuePair)listKV.get(0)).getKey().toString().equalsIgnoreCase("Integer"))){java.util.List listOutPara = new java.util.ArrayList();int arg0 = 0;try {arg0 = convert.convertToint(((com.bj58.spat.gaea.protocol.utility.KeyValuePair)listKV.get(0)).getValue());} catch (Exception e) {throw new com.bj58.spat.gaea.server.util.ServiceFrameException("method:ISendallServiceProxyStub1446112739586.sendallByGroup--msg:parse gaeaRequest error", context.getChannel().getRemoteIP(), context.getChannel().getLocalIP(), context.getGaeaRequest().getProtocol().getSdpEntity(), com.bj58.spat.gaea.server.util.ErrorState.ParaException, e);}try {boolean returnValue = serviceProxy.sendallByGroup(arg0);return new com.bj58.spat.gaea.server.contract.context.GaeaResponse(returnValue, listOutPara);} catch (Exception e) {throw new com.bj58.spat.gaea.server.util.ServiceFrameException("method:ISendallServiceProxyStub1446112739586.sendallByGroup--msg:invoke real service error", context.getChannel().getRemoteIP(), context.getChannel().getLocalIP(), context.getGaeaRequest().getProtocol().getSdpEntity(), com.bj58.spat.gaea.server.util.ErrorState.ServiceException, e);}}throw new com.bj58.spat.gaea.server.util.ServiceFrameException("method:ISendallServiceProxyStub1446112739586.sendallByGroup--msg:not fond method error", context.getChannel().getRemoteIP(), context.getChannel().getLocalIP(), context.getGaeaRequest().getProtocol().getSdpEntity(), com.bj58.spat.gaea.server.util.ErrorState.NotFoundMethodException, null);}
+[10-29 17:59:00 351 DEBUG] [main] deploy.bytecode.ProxyClassCreater - create invoke method:public com.bj58.spat.gaea.server.contract.context.GaeaResponse invoke(com.bj58.spat.gaea.server.contract.context.GaeaContext context) throws com.bj58.spat.gaea.server.util.ServiceFrameException {String methodName = ((com.bj58.spat.gaea.protocol.sdp.RequestProtocol)context.getGaeaRequest().getProtocol().getSdpEntity()).getMethodName();if(methodName.equalsIgnoreCase("sendallByGroup")){return sendallByGroup(context);}throw new com.bj58.spat.gaea.server.util.ServiceFrameException("method:ISendallServiceProxyStub1446112739586.invoke--msg:not found method ("+methodName+")", context.getChannel().getRemoteIP(), context.getChannel().getLocalIP(), context.getGaeaRequest().getProtocol().getSdpEntity(), com.bj58.spat.gaea.server.util.ErrorState.NotFoundMethodException, null);}
+[10-29 17:59:00 372 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[10-29 17:59:00 373 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[10-29 17:59:00 375 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1446112739586
+[10-29 17:59:00 386 DEBUG] [main] deploy.bytecode.ProxyFactoryCreater - ProxyFactory source code:public com.bj58.spat.gaea.server.contract.context.IProxyStub getProxy(String lookup) {if(lookup.equalsIgnoreCase("ISendallService")){return proxyISendallServiceweixin;}return null;}}
+[10-29 17:59:00 387 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[10-29 17:59:00 390 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[10-29 17:59:00 391 INFO ] [main] deploy.bytecode.CreateManager - dynamic load class:ISendallServiceProxyStub1446112739586
+[10-29 17:59:00 428 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Class path contains multiple SLF4J bindings.
+[10-29 17:59:00 429 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:/opt/gaea/service/deploy/weixin/slf4j-log4j12-1.6.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[10-29 17:59:00 429 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:/opt/gaea/service/lib/slf4j-log4j12-1.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[10-29 17:59:00 431 ERROR] [main] contract.log.SystemPrintStream - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[10-29 17:59:00 445 INFO ] [main] deploy.bytecode.CreateManager - crate ProxyFactory instance!!!
+[10-29 17:59:00 445 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[10-29 17:59:00 446 INFO ] [main] server.bootstrap.Main - -----------------loading init beans------------------
+[10-29 17:59:00 446 INFO ] [main] server.bootstrap.Main - load: com.bj58.spat.gaea.server.contract.context.SerializerClassInit
+[10-29 17:59:00 844 INFO ] [main] contract.log.SystemPrintStream - Scan jar files begin!
+[10-29 17:59:00 847 ERROR] [main] contract.log.SystemPrintStream - 开始扫描全部引用jar包，如果扫描过程过长请在启动vm参数中设置gaea.serializer.basepakage或者设置gaea.serializer.scantype=asyn使用异步模式扫描。
+[10-29 17:59:00 849 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/bin/
+[10-29 17:59:00 850 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/jdk/lib/tools.jar
+[10-29 17:59:07 387 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/lib/antlrall-2.7.2.jar
+[10-29 17:59:07 631 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/lib/com.bj58.spat.gaea.protocol-1.0.0.jar
+[10-29 17:59:07 665 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/lib/com.bj58.spat.gaea.serializer-1.0.0.jar
+[10-29 17:59:07 720 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/lib/com.bj58.spat.gaea.server-1.0.0.jar
+[10-29 17:59:07 888 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/lib/com.bj58.spat.json-1.1.0-SNAPSHOT.jar
+[10-29 17:59:07 946 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/lib/commons-logging.jar
+[10-29 17:59:07 950 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/lib/javassist.jar
+[10-29 17:59:08 015 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/lib/json-2.0.1.jar
+[10-29 17:59:08 037 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/lib/log4j-1.2.15.jar
+[10-29 17:59:08 068 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/lib/netty-3.1.5.GA.jar
+[10-29 17:59:08 114 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/lib/tools.jar
+[10-29 17:59:08 779 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/aspectjweaver-1.6.2.jar
+[10-29 17:59:08 969 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/com.bj58.spat.gaea.serializer-1.0.0.jar
+[10-29 17:59:08 978 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/junit-4.10.jar
+[10-29 17:59:08 996 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/ezmorph-1.0.3.jar
+[10-29 17:59:09 001 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/commons-lang-2.4.jar
+[10-29 17:59:09 042 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/com.bj58.spat.gaea.protocol-1.0.0.jar
+[10-29 17:59:09 050 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/spring-aop-4.0.3.RELEASE.jar
+[10-29 17:59:09 095 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/spring-context-4.0.3.RELEASE.jar
+[10-29 17:59:09 174 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/slf4j-api-1.6.2.jar
+[10-29 17:59:09 176 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/aopalliance-1.0.jar
+[10-29 17:59:09 176 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/aspectjrt-1.6.2.jar
+[10-29 17:59:09 192 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/commons-lang-2.6.jar
+[10-29 17:59:09 231 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/velocity-1.7.jar
+[10-29 17:59:09 304 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/commons-collections-3.2.1.jar
+[10-29 17:59:09 355 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/weixin-gaeaservice-contract-0.0.1-SNAPSHOT.jar
+[10-29 17:59:09 356 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/commons-logging-1.1.1.jar
+[10-29 17:59:09 361 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/customersystem-infrastructure-0.0.1-SNAPSHOT.jar
+[10-29 17:59:09 363 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/cn.hofan.spat.dal-0.0.2-20140527.064811-3.jar
+[10-29 17:59:09 385 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/spring-expression-4.0.3.RELEASE.jar
+[10-29 17:59:09 400 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/commons-beanutils-1.8.3.jar
+[10-29 17:59:09 427 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/slf4j-log4j12-1.6.2.jar
+[10-29 17:59:09 427 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/spring-core-4.0.3.RELEASE.jar
+[10-29 17:59:09 585 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/spring-beans-4.0.3.RELEASE.jar
+[10-29 17:59:09 687 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/weixin-gaeaservice-impl-0.0.1-SNAPSHOT.jar
+[10-29 17:59:09 689 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/hamcrest-core-1.1.jar
+[10-29 17:59:09 697 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/log4j-1.2.12.jar
+[10-29 17:59:09 725 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/cn.hofan.spat.dal-0.0.2-20140909.014911-7.jar
+[10-29 17:59:09 827 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/json-lib-2.1-rev2.jar
+[10-29 17:59:09 843 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/cn.hofan.spat.memcached-0.0.1-SNAPSHOT.jar
+[10-29 17:59:09 899 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/deploy/weixin/cn.hofan.spat.dal-0.0.1-SNAPSHOT.jar
+[10-29 17:59:10 129 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/sqljdbc4-4.0.jar
+[10-29 17:59:10 965 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/jackson-core-asl-1.9.13.jar
+[10-29 17:59:11 011 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/jackson-mapper-asl-1.9.13.jar
+[10-29 17:59:11 098 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/jcl-over-slf4j-1.6.1.jar
+[10-29 17:59:11 100 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/com.bj58.spat.beanquery-0.0.1-SNAPSHOT.jar
+[10-29 17:59:11 106 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/jyaml-1.3.jar
+[10-29 17:59:11 116 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/com.bj58.spat.core-0.0.1-SNAPSHOT.jar
+[10-29 17:59:11 126 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/stringtemplate-3.2.1.jar
+[10-29 17:59:11 149 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/cn.hofan.spat.dal-0.0.2-SNAPSHOT.jar
+[10-29 17:59:11 167 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/commons-codec-1.9.jar
+[10-29 17:59:11 183 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/antlr-runtime-3.3.jar
+[10-29 17:59:11 208 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/mysql-connector-java-5.1.6-bin.jar
+[10-29 17:59:11 413 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/slf4j-log4j12-1.6.1.jar
+[10-29 17:59:11 414 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/com.bj58.spat.dao-1.0.0-SNAPSHOT.jar
+[10-29 17:59:11 424 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/jaxrpc.jar
+[10-29 17:59:11 427 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/slf4j-api-1.6.1.jar
+[10-29 17:59:11 430 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/com.bj58.spat.memcached-0.0.1-rc1.jar
+[10-29 17:59:11 449 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/dom4j-1.6.1.jar
+[10-29 17:59:11 547 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/json-20080701.jar
+[10-29 17:59:11 560 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/stax-api-1.0.1.jar
+[10-29 17:59:11 574 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/httpclient-4.0.1.jar
+[10-29 17:59:11 639 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/gson-2.2.4.jar
+[10-29 17:59:11 687 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/cn.hofan.spat.threadpool-0.0.1-SNAPSHOT.jar
+[10-29 17:59:11 694 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/antlr-3.3.jar
+[10-29 17:59:12 102 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/httpcore-4.0.1.jar
+[10-29 17:59:12 135 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/commons-lang3-3.3.2.jar
+[10-29 17:59:12 381 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/com.bj58.spat.gaea.server-1.0.0.jar
+[10-29 17:59:12 463 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/com.bj58.spat.gaea.client-1.0.0.jar
+[10-29 17:59:12 646 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/xmlbeans-2.3.0.jar
+[10-29 17:59:13 434 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/commons-io-2.0.1.jar
+[10-29 17:59:13 460 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/commons-discovery-0.2.jar
+[10-29 17:59:13 468 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/mysql-connector-java-5.1.6.jar
+[10-29 17:59:13 645 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/opt/gaea/service/lib/xml-apis-1.0.b2.jar
+[10-29 17:59:13 652 INFO ] [main] contract.log.SystemPrintStream - scaning com.bj58.spat.gaea.protocol.sdp.com.bj58.spat.gaea.protocol.sdp.ExceptionProtocol
+[10-29 17:59:13 652 INFO ] [main] contract.log.SystemPrintStream - scaning com.bj58.spat.gaea.protocol.sdp.com.bj58.spat.gaea.protocol.sdp.HandclaspProtocol
+[10-29 17:59:13 652 INFO ] [main] contract.log.SystemPrintStream - scaning com.bj58.spat.gaea.protocol.sdp.com.bj58.spat.gaea.protocol.sdp.RequestProtocol
+[10-29 17:59:13 652 INFO ] [main] contract.log.SystemPrintStream - scaning com.bj58.spat.gaea.protocol.sdp.com.bj58.spat.gaea.protocol.sdp.ResetProtocol
+[10-29 17:59:13 653 INFO ] [main] contract.log.SystemPrintStream - scaning com.bj58.spat.gaea.protocol.sdp.com.bj58.spat.gaea.protocol.sdp.ResponseProtocol
+[10-29 17:59:13 653 INFO ] [main] contract.log.SystemPrintStream - scaning com.bj58.spat.gaea.protocol.utility.com.bj58.spat.gaea.protocol.utility.KeyValuePair
+[10-29 17:59:13 653 INFO ] [main] contract.log.SystemPrintStream - scaning com.bj58.spat.gaea.serializer.component.com.bj58.spat.gaea.serializer.component.ClassScaner
+[10-29 17:59:13 653 INFO ] [main] contract.log.SystemPrintStream - scaning com.bj58.spat.gaea.serializer.component.com.bj58.spat.gaea.serializer.component.TypeMap
+[10-29 17:59:13 656 INFO ] [main] contract.log.SystemPrintStream - scaning com.bj58.spat.gaea.serializer.component.annotation.com.bj58.spat.gaea.serializer.component.annotation.GaeaSerializable
+[10-29 17:59:13 656 INFO ] [main] contract.log.SystemPrintStream - scaning com.bj58.spat.gaea.serializer.component.exception.com.bj58.spat.gaea.serializer.component.exception.DisallowedSerializeException
+[10-29 17:59:13 656 INFO ] [main] contract.log.SystemPrintStream - scaning com.bj58.spat.gaea.serializer.serializer.com.bj58.spat.gaea.serializer.serializer.ObjectSerializer
+[10-29 17:59:13 656 INFO ] [main] contract.log.SystemPrintStream - scaning Serializer.Serializer.EnmReadState
+[10-29 17:59:13 657 INFO ] [main] contract.log.SystemPrintStream - scaning Serializer.Serializer.Info
+[10-29 17:59:13 657 INFO ] [main] contract.log.SystemPrintStream - scaning Serializer.Serializer.NewClass
+[10-29 17:59:13 657 INFO ] [main] contract.log.SystemPrintStream - scaning Serializer.Serializer.SimpleClass
+[10-29 17:59:13 658 INFO ] [main] contract.log.SystemPrintStream - scaning Serializer.Serializer.State
+[10-29 17:59:13 658 INFO ] [main] contract.log.SystemPrintStream - scaning Serializer.Serializer.SubClass
+[10-29 17:59:13 659 INFO ] [main] contract.log.SystemPrintStream - scaning com.bj58.enterprise.entity.com.bj58.enterprise.entity.Enterprise
+[10-29 17:59:13 659 INFO ] [main] contract.log.SystemPrintStream - scaning com.bj58.enterprise.entity.com.bj58.enterprise.entity.SESUser
+[10-29 17:59:13 659 INFO ] [main] contract.log.SystemPrintStream - scaning com.bj58.enterprise.entity.com.bj58.enterprise.entity.User
+[10-29 17:59:13 659 INFO ] [main] contract.log.SystemPrintStream - scaning com.bj58.spat.gaea.server.core.communication.http.com.bj58.spat.gaea.server.core.communication.http.News
+[10-29 17:59:13 661 INFO ] [main] contract.log.SystemPrintStream - scaning com.bj58.spat.gaea.server.util.com.bj58.spat.gaea.server.util.News
+[10-29 17:59:13 661 INFO ] [main] contract.log.SystemPrintStream - Scan jar files completed!
+[10-29 17:59:13 661 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[10-29 17:59:13 661 INFO ] [main] server.bootstrap.Main - -----------loading global request filters------------
+[10-29 17:59:13 661 INFO ] [main] server.bootstrap.Main - load: com.bj58.spat.gaea.server.filter.ProtocolParseFilter
+[10-29 17:59:13 662 INFO ] [main] server.bootstrap.Main - load: com.bj58.spat.gaea.server.filter.HandclaspFilter
+[10-29 17:59:13 663 INFO ] [main] server.bootstrap.Main - load: com.bj58.spat.gaea.server.filter.ExecuteMethodFilter
+[10-29 17:59:13 663 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[10-29 17:59:13 663 INFO ] [main] server.bootstrap.Main - -----------loading global response filters-----------
+[10-29 17:59:13 664 INFO ] [main] server.bootstrap.Main - load: com.bj58.spat.gaea.server.filter.ProtocolCreateFilter
+[10-29 17:59:13 664 INFO ] [main] server.bootstrap.Main - load: com.bj58.spat.gaea.server.filter.ExecuteTimeFilter
+[10-29 17:59:13 691 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[10-29 17:59:13 691 INFO ] [main] server.bootstrap.Main - -----------loading connection filters-----------
+[10-29 17:59:13 691 INFO ] [main] server.bootstrap.Main - load: com.bj58.spat.gaea.server.filter.IPFilter
+[10-29 17:59:13 692 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[10-29 17:59:13 692 INFO ] [main] server.bootstrap.Main - ------------------load secureKey start---------------------
+[10-29 17:59:13 692 INFO ] [main] server.bootstrap.Main - ------------------load secureKey end----------------------
+
+[10-29 17:59:13 693 INFO ] [main] server.bootstrap.Main - ------------------signal registr start---------------------
+[10-29 17:59:13 694 INFO ] [main] server.bootstrap.Main - ------------------signal registr success----------------------
+
+[10-29 17:59:13 694 INFO ] [main] server.bootstrap.Main - ------------------ starting servers -----------------
+[10-29 17:59:13 694 INFO ] [main] server.bootstrap.Main - gaea.server.tcp is starting...
+[10-29 17:59:13 781 INFO ] [main] communication.tcp.SocketServer - loading invoker...
+[10-29 17:59:13 839 INFO ] [main] core.proxy.AsyncInvokerHandle - async worker count:100
+[10-29 17:59:13 840 INFO ] [main] communication.tcp.SocketServer - initing server...
+[10-29 17:59:13 840 INFO ] [main] communication.tcp.SocketServer - -- socket server config --
+[10-29 17:59:13 840 INFO ] [main] communication.tcp.SocketServer - -- listen ip: 0.0.0.0
+[10-29 17:59:13 840 INFO ] [main] communication.tcp.SocketServer - -- port: 10086
+[10-29 17:59:13 840 INFO ] [main] communication.tcp.SocketServer - -- tcpNoDelay: true
+[10-29 17:59:13 840 INFO ] [main] communication.tcp.SocketServer - -- receiveBufferSize: 10240000
+[10-29 17:59:13 840 INFO ] [main] communication.tcp.SocketServer - -- sendBufferSize: 10240000
+[10-29 17:59:13 840 INFO ] [main] communication.tcp.SocketServer - -- frameMaxLength: 52428800
+[10-29 17:59:13 840 INFO ] [main] communication.tcp.SocketServer - -- worker thread count: 32
+[10-29 17:59:13 840 INFO ] [main] communication.tcp.SocketServer - --------------------------
+[10-29 17:59:13 840 INFO ] [main] communication.tcp.SocketServer - weixin SocketServer starting...
+[10-29 17:59:14 880 INFO ] [main] server.bootstrap.Main - gaea.server.tcpstarted success!!!
+
+[10-29 17:59:14 880 INFO ] [main] server.bootstrap.Main - gaea.server.telnet is starting...
+[10-29 17:59:14 881 INFO ] [main] communication.telnet.TelnetServer - ----------------telnet server config------------------
+[10-29 17:59:14 881 INFO ] [main] communication.telnet.TelnetServer - -- telnet server listen ip: 0.0.0.0
+[10-29 17:59:14 881 INFO ] [main] communication.telnet.TelnetServer - -- telnet server port: 8089
+[10-29 17:59:14 881 INFO ] [main] communication.telnet.TelnetServer - ------------------------------------------------------
+[10-29 17:59:14 883 INFO ] [main] server.bootstrap.Main - gaea.server.telnetstarted success!!!
+
+[10-29 17:59:14 883 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[10-29 17:59:14 883 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ server start success!!! +++++++++++++++++++++
+
+[10-29 18:03:14 012 DEBUG] [New I/O server boss #1 (channelId: 182426297, /0:0:0:0:0:0:0:0:10086)] communication.tcp.SocketHandler - [id: 0x48530440, /192.168.3.77:56032 => /192.168.3.77:10086] OPEN
+[10-29 18:03:14 015 INFO ] [New I/O server boss #1 (channelId: 182426297, /0:0:0:0:0:0:0:0:10086)] communication.tcp.SocketHandler - new channel open:/192.168.3.77:56032
+[10-29 18:03:14 015 DEBUG] [New I/O server boss #1 (channelId: 182426297, /0:0:0:0:0:0:0:0:10086)] communication.tcp.SocketHandler - [id: 0x48530440, /192.168.3.77:56032 => /192.168.3.77:10086] BOUND: /192.168.3.77:10086
+[10-29 18:03:14 015 DEBUG] [New I/O server boss #1 (channelId: 182426297, /0:0:0:0:0:0:0:0:10086)] communication.tcp.SocketHandler - [id: 0x48530440, /192.168.3.77:56032 => /192.168.3.77:10086] CONNECTED: /192.168.3.77:56032
+[10-29 18:03:14 041 INFO ] [New I/O server boss #1 (channelId: 182426297, /0:0:0:0:0:0:0:0:10086)] server.filter.IPFilter - new channel conected:192.168.3.77
+[10-29 18:03:14 047 DEBUG] [New I/O server worker #1-1] communication.tcp.SocketHandler - message receive
+[10-29 18:03:14 048 DEBUG] [New I/O server worker #1-1] communication.tcp.SocketHandler - reciveByte.length:132
+[10-29 18:03:14 048 DEBUG] [New I/O server worker #1-1] core.proxy.AsyncInvokerHandle - -------------------begin async invoke-------------------
+[10-29 18:03:14 053 DEBUG] [async task thread-pool-1-tid-1] core.proxy.AsyncInvokerHandle - begin request filter
+[10-29 18:03:14 061 DEBUG] [async task thread-pool-1-tid-1] core.proxy.InvokerBase - ------------------------------ begin request-----------------------------
+[10-29 18:03:14 061 DEBUG] [async task thread-pool-1-tid-1] core.proxy.InvokerBase - protocol version:1
+fromIP:192.168.3.77
+lookUP:ISendallService
+methodName:sendallByGroup
+params:
+--key:int
+--value:101
+[10-29 18:03:14 061 DEBUG] [async task thread-pool-1-tid-1] core.proxy.InvokerBase - begin get proxy factory
+[10-29 18:03:14 061 DEBUG] [async task thread-pool-1-tid-1] core.proxy.InvokerBase - proxyFactory.getProxy finish
+[10-29 18:03:14 061 DEBUG] [async task thread-pool-1-tid-1] core.proxy.InvokerBase - begin localProxy.invoke
+[10-29 18:03:14 068 INFO ] [async task thread-pool-1-tid-1] contract.log.SystemPrintStream - serviceframe.config.path:null
+[10-29 18:03:14 068 INFO ] [async task thread-pool-1-tid-1] contract.log.SystemPrintStream - stack length:13
+[10-29 18:03:14 068 INFO ] [async task thread-pool-1-tid-1] contract.log.SystemPrintStream - getCaller class name:cn.hofan.weixin.impl.DBHelper
+[10-29 18:03:14 068 INFO ] [async task thread-pool-1-tid-1] contract.log.SystemPrintStream - utility path getCurrentPath:/opt/gaea/service/deploy/weixin
+[10-29 18:03:14 069 INFO ] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - creating DAOHelper configPath:/opt/gaea/service/deploy/weixin/config/PersonalInfo.properties
+[10-29 18:03:14 078 INFO ] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - init ConnectionPool...
+[10-29 18:03:14 079 DEBUG] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - ConnectionPool ConnetionURL:jdbc:mysql://192.168.3.77:3306/sp_db?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8
+[10-29 18:03:14 079 DEBUG] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - ConnectionPool DriversClass:com.mysql.jdbc.Driver
+[10-29 18:03:14 079 DEBUG] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - ConnectionPool UserName:***
+[10-29 18:03:14 079 DEBUG] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - ConnectionPool PassWord:***
+[10-29 18:03:14 079 DEBUG] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - ConnectionPool MinPoolSize:5
+[10-29 18:03:14 079 DEBUG] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - ConnectionPool MaxPoolSize:50
+[10-29 18:03:14 079 DEBUG] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - ConnectionPool IdleTimeout:30
+[10-29 18:03:14 079 DEBUG] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - ConnectionPool AutoShrink:false
+[10-29 18:03:14 162 INFO ] [async task thread-pool-1-tid-1] contract.log.SystemPrintStream - register jdbc driver...
+[10-29 18:03:14 164 INFO ] [async task thread-pool-1-tid-1] contract.log.SystemPrintStream - serviceframe.config.path:null
+[10-29 18:03:14 164 INFO ] [async task thread-pool-1-tid-1] contract.log.SystemPrintStream - stack length:13
+[10-29 18:03:14 164 INFO ] [async task thread-pool-1-tid-1] contract.log.SystemPrintStream - getCaller class name:cn.hofan.weixin.impl.DBHelper
+[10-29 18:03:14 164 INFO ] [async task thread-pool-1-tid-1] contract.log.SystemPrintStream - utility path getCurrentPath:/opt/gaea/service/deploy/weixin
+[10-29 18:03:14 164 INFO ] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - creating DAOHelper configPath:/opt/gaea/service/deploy/weixin/config/ERPServer.properties
+[10-29 18:03:14 169 INFO ] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - init ConnectionPool...
+[10-29 18:03:14 169 DEBUG] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - ConnectionPool ConnetionURL:jdbc:sqlserver://192.168.1.19:8824;DatabaseName=ERPSystem
+[10-29 18:03:14 169 DEBUG] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - ConnectionPool DriversClass:com.microsoft.sqlserver.jdbc.SQLServerDriver
+[10-29 18:03:14 169 DEBUG] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - ConnectionPool UserName:***
+[10-29 18:03:14 169 DEBUG] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - ConnectionPool PassWord:***
+[10-29 18:03:14 169 DEBUG] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - ConnectionPool MinPoolSize:1
+[10-29 18:03:14 169 DEBUG] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - ConnectionPool MaxPoolSize:50
+[10-29 18:03:14 170 DEBUG] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - ConnectionPool IdleTimeout:30
+[10-29 18:03:14 170 DEBUG] [async task thread-pool-1-tid-1] dal.pool.DBPoolFactory - ConnectionPool AutoShrink:false
+[10-29 18:03:14 170 INFO ] [async task thread-pool-1-tid-1] contract.log.SystemPrintStream - register jdbc driver...
+[10-29 18:03:14 685 DEBUG] [async task thread-pool-1-tid-1] sql.select.MyDaoSqlSelectHandler - 执行sql='SELECT erp_code AS erpcode,openid from weixin_info where isemailchecked=1'
+参数：
+
+[10-29 18:03:31 769 INFO ] [async task thread-pool-1-tid-1] weixin.impl.SendallServiceImpl - 从昨天起有待发货订单的人有73个,即需要给73个人推送提醒...
+[10-29 18:03:31 777 INFO ] [async task thread-pool-1-tid-1] weixin.impl.SendallServiceImpl - 从/opt/soft/tomcat_weixin/webapps/accesstoken.txt中读出accesstoken成功: nKui6XtdmAkF6niYgz5w4mA6LXKEEkqs2HNQZLuPrwS0eqtA-5tDJpnr-fg9CBI6WdfYUxxxbYnyv4nTsGU4XTYnAVElFJiPmnRvrB4SVhsRHOgACAIYF
+[10-29 18:03:32 797 INFO ] [async task thread-pool-1-tid-1] weixin.impl.SendallServiceImpl - 批量(最多50个)移动到临时组成功!
+[10-29 18:03:33 292 INFO ] [async task thread-pool-1-tid-1] weixin.impl.SendallServiceImpl - 批量(最多50个)移动到临时组成功!
+[10-29 18:03:38 293 INFO ] [async task thread-pool-1-tid-1] weixin.impl.SendallServiceImpl - 从/opt/soft/tomcat_weixin/webapps/accesstoken.txt中读出accesstoken成功: nKui6XtdmAkF6niYgz5w4mA6LXKEEkqs2HNQZLuPrwS0eqtA-5tDJpnr-fg9CBI6WdfYUxxxbYnyv4nTsGU4XTYnAVElFJiPmnRvrB4SVhsRHOgACAIYF
+[10-29 18:03:39 327 INFO ] [async task thread-pool-1-tid-1] weixin.impl.SendallServiceImpl - 按组(组id101)群发成功!
+[10-29 18:03:44 068 ERROR] [async task worker[0]] core.proxy.AsyncInvokerHandle - AsyncInvokerHandle invoke error
+java.util.concurrent.TimeoutException: async task timeout!
+	at com.bj58.spat.gaea.server.util.async.AsyncWorker.execTimeoutTask(AsyncWorker.java:138)
+	at com.bj58.spat.gaea.server.util.async.AsyncWorker.run(AsyncWorker.java:64)
+[10-29 18:03:44 328 INFO ] [async task thread-pool-1-tid-1] weixin.impl.SendallServiceImpl - 从/opt/soft/tomcat_weixin/webapps/accesstoken.txt中读出accesstoken成功: nKui6XtdmAkF6niYgz5w4mA6LXKEEkqs2HNQZLuPrwS0eqtA-5tDJpnr-fg9CBI6WdfYUxxxbYnyv4nTsGU4XTYnAVElFJiPmnRvrB4SVhsRHOgACAIYF
+[10-29 18:03:44 707 INFO ] [async task thread-pool-1-tid-1] weixin.impl.SendallServiceImpl - 批量(最多50个)移回星标组成功!
+[10-29 18:03:45 022 INFO ] [async task thread-pool-1-tid-1] weixin.impl.SendallServiceImpl - 批量(最多50个)移回星标组成功!
+[10-29 18:03:45 022 DEBUG] [async task thread-pool-1-tid-1] core.proxy.InvokerBase - end localProxy.invoke
+[10-29 18:03:45 023 DEBUG] [async task thread-pool-1-tid-1] core.proxy.InvokerBase - localProxy.invoke finish
+[10-29 18:03:45 023 DEBUG] [async task thread-pool-1-tid-1] core.proxy.InvokerBase - ---------------------------------- end --------------------------------
+[10-29 18:03:45 023 DEBUG] [async task thread-pool-1-tid-1] core.proxy.AsyncInvokerHandle - begin response filter

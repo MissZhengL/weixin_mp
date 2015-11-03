@@ -1,0 +1,4 @@
+txn[1001], 14:21:07.504, select TrackingNumber  FROM dbo.OrderPackageStatus with(nolock)   WHERE  TrackingNumber IS NOT NULL AND LEN(TrackingNumber)>2  AND DATEDIFF(DAY,CreateTime,GETDATE())<=60 
+txn[1001], 14:21:07.940, FindMany type[Track] origin[B6w03y.Iyo3U.D_sy9P] exeMicros[435563] rows[70367] name[] predicates[] bind[] 
+txn[1001], 14:24:02.058, select TrackingNumber  FROM dbo.OrderPackageStatus with(nolock)   WHERE  TrackingNumber IS NOT NULL AND LEN(TrackingNumber)>2  AND DATEDIFF(DAY,CreateTime,GETDATE())<=3 
+txn[1001], 14:24:02.386, FindMany type[Track] origin[B6w03y.Iyo3U.D_sy9P] exeMicros[327698] rows[5255] name[] predicates[] bind[] 

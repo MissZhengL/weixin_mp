@@ -1,0 +1,137 @@
+[10-29 18:02:24 157 INFO ] [main] scheduler.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[10-29 18:02:24 160 INFO ] [main] scheduler.bootstrap.Main - user.dir: /opt/stf/bin
+[10-29 18:02:24 161 INFO ] [main] scheduler.bootstrap.Main - rootPath: /opt/stf/bin/../
+[10-29 18:02:24 161 INFO ] [main] scheduler.bootstrap.Main - service sch_log4j.xml: /opt/stf/bin/../service/weixin/sch_log4j.xml
+[10-29 18:02:24 163 INFO ] [main] scheduler.bootstrap.Main - default sch_log4j.xml: /opt/stf/bin/sch_log4j.xml
+[10-29 18:02:24 163 INFO ] [main] scheduler.bootstrap.Main - -----------------loading global jars------------------
+[10-29 18:02:24 190 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/lib/commons-codec-1.6.jar
+[10-29 18:02:24 191 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/lib/jyaml-1.3.jar
+[10-29 18:02:24 192 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/lib/sqljdbc4-2.0.jar
+[10-29 18:02:24 194 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/lib/jta-1.1.jar
+[10-29 18:02:24 195 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/lib/commons-logging-1.1.1.jar
+[10-29 18:02:24 195 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/lib/slf4j-log4j12-1.6.1.jar
+[10-29 18:02:24 196 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/lib/slf4j-api-1.6.1.jar
+[10-29 18:02:24 196 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/lib/commons-logging-api-1.1.jar
+[10-29 18:02:24 197 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/lib/commons-collections-3.2.jar
+[10-29 18:02:24 197 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/lib/cn.hofan.spat.scheduler-0.0.1-SNAPSHOT.jar
+[10-29 18:02:24 198 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/lib/log4j-1.2.16.jar
+[10-29 18:02:24 198 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/lib/quartz-1.6.0.jar
+[10-29 18:02:24 199 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/lib/cn.hofan.spat.dal-0.0.1-SNAPSHOT.jar
+[10-29 18:02:24 199 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/lib/mysql-connector-java-5.1.6.jar
+[10-29 18:02:24 200 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/cn.hofan.spat.ums-0.0.1-SNAPSHOT.jar
+[10-29 18:02:24 201 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/com.bj58.spat.gaea.serializer-1.0.0.jar
+[10-29 18:02:24 230 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/sqljdbc4-4.0.jar
+[10-29 18:02:24 231 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/jackson-mapper-asl-1.8.1.jar
+[10-29 18:02:24 232 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/geronimo-jms_1.1_spec-1.1.1.jar
+[10-29 18:02:24 232 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar
+[10-29 18:02:24 233 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/activemq-protobuf-1.1.jar
+[10-29 18:02:24 233 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/com.bj58.spat.gaea.protocol-1.0.0.jar
+[10-29 18:02:24 234 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/httpclient-4.3.4.jar
+[10-29 18:02:24 234 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/persistence-api-1.0.jar
+[10-29 18:02:24 235 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/slf4j-api-1.6.2.jar
+[10-29 18:02:24 235 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/aopalliance-1.0.jar
+[10-29 18:02:24 236 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/stringtemplate-3.2.1.jar
+[10-29 18:02:24 236 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/cn.hofan.spat.dal-0.0.2-SNAPSHOT.jar
+[10-29 18:02:24 237 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/commons-lang3-3.1.jar
+[10-29 18:02:24 238 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/antlr-runtime-3.3.jar
+[10-29 18:02:24 238 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/hawtdispatch-transport-1.11.jar
+[10-29 18:02:24 238 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/spring-core-3.0.7.RELEASE.jar
+[10-29 18:02:24 239 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/cn.hofan.spat.esb.jms.client-0.0.1-SNAPSHOT.jar
+[10-29 18:02:24 240 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/hawtdispatch-1.11.jar
+[10-29 18:02:24 240 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/weixin-gaeaservice-contract-0.0.1-SNAPSHOT.jar
+[10-29 18:02:24 241 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/spring-context-3.0.7.RELEASE.jar
+[10-29 18:02:24 242 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/mail-1.4.5.jar
+[10-29 18:02:24 242 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/spring-beans-3.0.7.RELEASE.jar
+[10-29 18:02:24 243 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/weixin-timing-0.0.1-SNAPSHOT.jar
+[10-29 18:02:24 243 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/jasypt-1.9.0.jar
+[10-29 18:02:24 244 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/spring-aop-3.0.7.RELEASE.jar
+[10-29 18:02:24 244 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/slf4j-log4j12-1.6.2.jar
+[10-29 18:02:24 250 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/kahadb-5.7.0.jar
+[10-29 18:02:24 251 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/commons-net-3.1.jar
+[10-29 18:02:24 251 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/activation-1.1.jar
+[10-29 18:02:24 252 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/cn.hofan.spat.jms.client.db-0.0.1-SNAPSHOT.jar
+[10-29 18:02:24 252 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/httpcore-4.3.2.jar
+[10-29 18:02:24 253 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/jackson-core-asl-1.8.1.jar
+[10-29 18:02:24 255 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/logistic-track-client-1.0.0-SNAPSHOT.jar
+[10-29 18:02:24 256 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/hawtbuf-1.9.jar
+[10-29 18:02:24 257 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/bcprov-jdk16-1.46.jar
+[10-29 18:02:24 261 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/mqtt-client-1.3.jar
+[10-29 18:02:24 261 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/cn.hofan.spat.threadpool-0.0.1-SNAPSHOT.jar
+[10-29 18:02:24 262 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/junit-4.8.2.jar
+[10-29 18:02:24 263 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/log4j-1.2.12.jar
+[10-29 18:02:24 263 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/antlr-3.3.jar
+[10-29 18:02:24 264 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/mysql-connector-java-5.1.20.jar
+[10-29 18:02:24 265 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/ebean-2.7.1.jar
+[10-29 18:02:24 266 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/spring-asm-3.0.7.RELEASE.jar
+[10-29 18:02:24 266 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/com.bj58.spat.gaea.server-1.0.0.jar
+[10-29 18:02:24 268 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/com.bj58.spat.gaea.client-1.0.0.jar
+[10-29 18:02:24 269 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/spring-expression-3.0.7.RELEASE.jar
+[10-29 18:02:24 271 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/antlr-2.7.7.jar
+[10-29 18:02:24 273 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/httpclient-1.0.jar
+[10-29 18:02:24 276 INFO ] [main] scheduler.core.GlobalClassLoader - append jar to classpath:file:/opt/stf/service/weixin/lib/activemq-core-5.7.0.jar
+[10-29 18:02:24 277 INFO ] [main] scheduler.bootstrap.Main - -------------------------end-------------------------
+
+[10-29 18:02:24 279 INFO ] [main] scheduler.bootstrap.Main - -----------------Check the necessary files ------------------
+[10-29 18:02:24 292 INFO ] [main] scheduler.bootstrap.Main - quartzconfigfile=/opt/stf/bin/../service/weixin/config/sch_config.properties
+[10-29 18:02:24 434 INFO ] [main] scheduler.scheduler.DefaultQuartzProperties - quarzt properties:org.quartz.threadPool.threadsInheritContextClassLoaderOfInitializingThread  value:true
+[10-29 18:02:24 435 INFO ] [main] scheduler.scheduler.DefaultQuartzProperties - quarzt properties:org.quartz.scheduler.rmi.proxy  value:false
+[10-29 18:02:24 435 INFO ] [main] scheduler.scheduler.DefaultQuartzProperties - quarzt properties:org.quartz.scheduler.rmi.export  value:false
+[10-29 18:02:24 435 INFO ] [main] scheduler.scheduler.DefaultQuartzProperties - quarzt properties:org.quartz.dataSource.myDS.connectionProvider.class  value:cn.hofan.spat.scheduler.dao.ConnnectionProviderImpl
+[10-29 18:02:24 436 INFO ] [main] scheduler.scheduler.DefaultQuartzProperties - quarzt properties:org.quartz.threadPool.threadCount  value:10
+[10-29 18:02:24 436 INFO ] [main] scheduler.scheduler.DefaultQuartzProperties - quarzt properties:org.quartz.scheduler.instanceName  value:weixin
+[10-29 18:02:24 437 INFO ] [main] scheduler.scheduler.DefaultQuartzProperties - quarzt properties:org.quartz.scheduler.wrapJobExecutionInUserTransaction  value:false
+[10-29 18:02:24 437 INFO ] [main] scheduler.scheduler.DefaultQuartzProperties - quarzt properties:org.quartz.threadPool.class  value:org.quartz.simpl.SimpleThreadPool
+[10-29 18:02:24 437 INFO ] [main] scheduler.scheduler.DefaultQuartzProperties - quarzt properties:org.quartz.jobStore.class  value:org.quartz.simpl.RAMJobStore
+[10-29 18:02:24 438 INFO ] [main] scheduler.scheduler.DefaultQuartzProperties - quarzt properties:org.quartz.scheduler.instanceId  value:TimingJob1446112944433
+[10-29 18:02:24 438 INFO ] [main] scheduler.scheduler.DefaultQuartzProperties - quarzt properties:org.quartz.threadPool.threadPriority  value:5
+[10-29 18:02:24 445 INFO ] [main] scheduler.bootstrap.Main - -----------------Check the necessary end ------------------
+[10-29 18:02:24 446 INFO ] [main] scheduler.bootstrap.Main - -----------------start scheduler ------------------
+[10-29 18:02:24 446 INFO ] [main] scheduler.bootstrap.Main - jobdetail class=cn.hofan.provider.TimingJob
+[10-29 18:02:30 160 INFO ] [main] scheduler.scheduler.JobDetailFactory - -----------create jobdetail success------------
+[10-29 18:02:30 163 INFO ] [main] scheduler.scheduler.TriggerFactory - ---------------------tigger type=CronTrigger
+[10-29 18:02:30 168 INFO ] [main] scheduler.scheduler.TriggerFactory - ---------------------create CronTrigger success
+[10-29 18:02:30 168 INFO ] [main] scheduler.bootstrap.Main - jobdetaillistener------null--------
+[10-29 18:02:30 169 INFO ] [main] scheduler.scheduler.JobScheduler - -----------------------------init scheduler ------------------------------------
+[10-29 18:02:30 251 INFO ] [main] quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+[10-29 18:02:30 276 INFO ] [main] quartz.core.QuartzScheduler - Quartz Scheduler v.1.6.0 created.
+[10-29 18:02:30 277 INFO ] [main] quartz.simpl.RAMJobStore - RAMJobStore initialized.
+[10-29 18:02:30 278 INFO ] [main] quartz.impl.StdSchedulerFactory - Quartz scheduler 'weixin' initialized from an externally provided properties instance.
+[10-29 18:02:30 278 INFO ] [main] quartz.impl.StdSchedulerFactory - Quartz scheduler version: 1.6.0
+[10-29 18:02:30 293 INFO ] [main] quartz.core.QuartzScheduler - Scheduler weixin_$_TimingJob1446112944433 started.
+[10-29 18:02:30 294 INFO ] [main] scheduler.bootstrap.Main - -----------------start scheduler success ------------------
+[10-29 18:03:00 041 INFO ] [weixin_Worker-1] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-29 18:03:00------
+[10-29 18:03:00 160 INFO ] [weixin_Worker-1] hofan.provider.TimingJob - 当前时间点： 2015-10-29 18:03:00，待执行作业总数:1
+[10-29 18:03:00 161 INFO ] [weixin_Worker-1] hofan.application.SendallByGroupJobHandler - ==开始按组群发图文消息==
+[10-29 18:03:13 847 INFO ] [weixin_Worker-1] client.loadbalance.Server - Gaea Client v1.0.0:starting init servers
+[10-29 18:03:13 916 INFO ] [weixin_Worker-1] communication.socket.ScoketPool - Gaea Client v1.0.0:init servers end
+[10-29 18:03:13 970 INFO ] [weixin_Worker-1] communication.socket.Worker - Gaea Client v1.0.0:MaxPakageSize:10240000
+[10-29 18:03:13 970 INFO ] [weixin_Worker-1] communication.socket.Worker - Gaea Client v1.0.0:SendBufferSize:8388608
+[10-29 18:03:13 970 INFO ] [weixin_Worker-1] communication.socket.Worker - Gaea Client v1.0.0:RecvBufferSize:8388608
+[10-29 18:03:13 970 INFO ] [weixin_Worker-1] communication.socket.Worker - Gaea Client v1.0.0:create a new connection :Socket[addr=/192.168.3.77,port=10086,localport=56032]
+[10-29 18:03:44 086 ERROR] [weixin_Worker-1] hofan.application.SendallByGroupJobHandler - 出错
+com.bj58.spat.gaea.protocol.exception.OtherException: error num:9613781812676918--state:OtherException--Message:async task timeout!com.bj58.spat.gaea.server.util.async.AsyncWorker.execTimeoutTask(AsyncWorker.java:138)---com.bj58.spat.gaea.server.util.async.AsyncWorker.run(AsyncWorker.java:64)---
+	at com.bj58.spat.gaea.protocol.exception.ThrowErrorHelper.throwServiceError(ThrowErrorHelper.java:35)
+	at com.bj58.spat.gaea.client.proxy.ServiceProxy.invoke(ServiceProxy.java:183)
+	at com.bj58.spat.gaea.client.proxy.builder.MethodCaller.doMethodCall(MethodCaller.java:85)
+	at com.bj58.spat.gaea.client.proxy.builder.ProxyStandard.invoke(ProxyStandard.java:58)
+	at com.sun.proxy.$Proxy0.sendallByGroup(Unknown Source)
+	at cn.hofan.application.SendallByGroupJobHandler.Run(SendallByGroupJobHandler.java:44)
+	at cn.hofan.provider.TimingJob.execute(TimingJob.java:38)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:529)
+[10-29 18:03:44 094 INFO ] [weixin_Worker-1] hofan.application.SendallByGroupJobHandler - 失败
+[10-29 18:03:44 095 INFO ] [weixin_Worker-1] hofan.provider.TimingJob - 已执行作业数： 1,待执行作业数：0
+[10-29 18:03:44 096 INFO ] [weixin_Worker-1] hofan.provider.TimingJob - 当前时间点： 2015-10-29 18:03:44线程睡了
+[10-29 18:03:45 097 INFO ] [weixin_Worker-1] hofan.provider.TimingJob - 当前时间点： 2015-10-29 18:03:45线程醒了
+[10-29 18:03:45 098 INFO ] [weixin_Worker-1] hofan.provider.TimingJob - ------结束执行定时器的此次心跳： 2015-10-29 18:03:45------
+[10-29 19:03:00 133 INFO ] [weixin_Worker-2] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-29 19:03:00------
+[10-29 19:03:00 172 INFO ] [weixin_Worker-2] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-29 19:03:00
+[10-29 20:03:00 024 INFO ] [weixin_Worker-3] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-29 20:03:00------
+[10-29 20:03:00 041 INFO ] [weixin_Worker-3] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-29 20:03:00
+[10-29 21:03:00 024 INFO ] [weixin_Worker-4] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-29 21:03:00------
+[10-29 21:03:00 025 INFO ] [weixin_Worker-4] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-29 21:03:00
+[10-29 22:03:00 020 INFO ] [weixin_Worker-5] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-29 22:03:00------
+[10-29 22:03:00 021 INFO ] [weixin_Worker-5] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-29 22:03:00
+[10-29 23:03:00 021 INFO ] [weixin_Worker-6] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-29 23:03:00------
+[10-29 23:03:00 022 INFO ] [weixin_Worker-6] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-29 23:03:00

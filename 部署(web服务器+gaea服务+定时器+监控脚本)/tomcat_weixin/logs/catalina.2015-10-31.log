@@ -1,0 +1,258 @@
+31-Oct-2015 00:08:54.868 INFO [http-nio-9999-exec-9] cn.hofan.service.CoreService.processRequest erpcode:6962
+31-Oct-2015 00:08:55.184 INFO [http-nio-9999-exec-9] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/9d6f0cafa6ac45bab10220e7dac51e81.jsp成功
+31-Oct-2015 00:08:55.185 INFO [http-nio-9999-exec-9] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/9d6f0cafa6ac45bab10220e7dac51e81.jsp成功
+31-Oct-2015 01:32:52.794 INFO [Thread-6] cn.hofan.thread.TokenThread.run 第11次获取access_token成功，有效时长{7200}秒  token:{83-dz9x7AyF8SYJcsuClFzu_x8HOg-TYOdu-w4os7BMtI6ohxtgsXrjn35MGr_o0e4r-uj1TrRh1oeUxrskcpqtoFn3oI_gE1GxE8stW7PMLEVaACACVM}
+31-Oct-2015 01:32:52.800 INFO [Thread-6] cn.hofan.util.FileUtil.createFile 删除之前的然后再创建空文件/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 01:32:52.806 INFO [Thread-6] cn.hofan.util.FileUtil.writeTxtFile 把access_token写入/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 03:29:33.208 INFO [Thread-6] cn.hofan.thread.TokenThread.run 第12次获取access_token成功，有效时长{7200}秒  token:{DqG1GxS3wi8_odCnMXGXnkIEnrOpXL-awU3TyyZ9nKznZuztnx7eSVxR5HLXKUvwa718ycvr02iFl50WMeGngFXkCVA56nCE1dMsj2pJr1oPPPgAFAYYY}
+31-Oct-2015 03:29:33.209 INFO [Thread-6] cn.hofan.util.FileUtil.createFile 删除之前的然后再创建空文件/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 03:29:33.209 INFO [Thread-6] cn.hofan.util.FileUtil.writeTxtFile 把access_token写入/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 05:26:13.472 INFO [Thread-6] cn.hofan.thread.TokenThread.run 第13次获取access_token成功，有效时长{7200}秒  token:{ogTyWG4khC7Mt6C6uTcqOzJCuM4Wx2XcmGimoiVYfz8lQ_MBeVwIuERVVGUSX6CUuk5LCD4WQQIsv4mdwmKSTuWZU5RCnsEaeggRZSTAYCQLAGgAHAUJP}
+31-Oct-2015 05:26:13.473 INFO [Thread-6] cn.hofan.util.FileUtil.createFile 删除之前的然后再创建空文件/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 05:26:13.473 INFO [Thread-6] cn.hofan.util.FileUtil.writeTxtFile 把access_token写入/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 06:06:03.601 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+31-Oct-2015 06:06:04.001 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+31-Oct-2015 06:06:04.032 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2015 06:06:04.037 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9020"]
+31-Oct-2015 06:06:04.038 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2015 06:06:04.039 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1310 ms
+31-Oct-2015 06:06:04.059 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Oct-2015 06:06:04.065 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.5
+31-Oct-2015 06:06:04.108 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/soft/tomcat_weixin/webapps/weixin.war
+31-Oct-2015 06:06:06.897 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2015 06:06:07.054 INFO [localhost-startStop-1] cn.hofan.servlet.InitServlet.init 从web.xml中读取配置参数appid:{wx514fa56faa4f60b6}
+31-Oct-2015 06:06:07.054 INFO [localhost-startStop-1] cn.hofan.servlet.InitServlet.init 从web.xml中读取配置参数appsecret:{a06cec8d677edd9484847ceee5208dd2}
+31-Oct-2015 06:06:07.069 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/soft/tomcat_weixin/webapps/orderdetail
+31-Oct-2015 06:06:07.100 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+31-Oct-2015 06:06:07.103 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9020"]
+31-Oct-2015 06:06:07.109 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3069 ms
+31-Oct-2015 06:06:07.774 INFO [Thread-6] cn.hofan.thread.TokenThread.run 第1次获取access_token成功，有效时长{7200}秒  token:{ULqymqQ1oLypIoAEi61WE53tJYCEzpcSUr_FoIqruu-ctCGMQmnFFAtzAXVQs7cvK4PKKEhXy7iJ7M_Ux0vkKeOEWcRihEWywLnjgBCiTuoXMWaAHAIXH}
+31-Oct-2015 06:06:07.778 INFO [Thread-6] cn.hofan.util.FileUtil.createFile 删除之前的然后再创建空文件/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 06:06:07.778 INFO [Thread-6] cn.hofan.util.FileUtil.writeTxtFile 把access_token写入/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 08:02:48.074 INFO [Thread-6] cn.hofan.thread.TokenThread.run 第2次获取access_token成功，有效时长{7200}秒  token:{lxmsS0Rcz80Ylt9UEGUdudN3rOnAXWnw8ZHXb7VxEJNZq6_sVsMfGeVWUmnNBxqobqrweOew-a659h4FP4LqJj-OxETUPozCVMNwaYfGvYIMSWdAEAZFJ}
+31-Oct-2015 08:02:48.075 INFO [Thread-6] cn.hofan.util.FileUtil.createFile 删除之前的然后再创建空文件/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 08:02:48.097 INFO [Thread-6] cn.hofan.util.FileUtil.writeTxtFile 把access_token写入/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 09:04:46.255 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool creating DAOHelper configPath:/opt/soft/tomcat_weixin/webapps/weixin/WEB-INF/classes/cn/hofan/dal/config/PersonalInfo.properties
+31-Oct-2015 09:04:46.270 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool init ConnectionPool...
+31-Oct-2015 09:04:46.333 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool creating DAOHelper configPath:/opt/soft/tomcat_weixin/webapps/weixin/WEB-INF/classes/cn/hofan/dal/config/ERPServer.properties
+31-Oct-2015 09:04:46.338 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool init ConnectionPool...
+31-Oct-2015 09:48:02.789 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+31-Oct-2015 09:48:03.220 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+31-Oct-2015 09:48:03.251 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2015 09:48:03.254 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9020"]
+31-Oct-2015 09:48:03.255 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2015 09:48:03.256 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1337 ms
+31-Oct-2015 09:48:03.285 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Oct-2015 09:48:03.290 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.5
+31-Oct-2015 09:48:03.334 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/soft/tomcat_weixin/webapps/weixin.war
+31-Oct-2015 09:48:05.434 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2015 09:48:05.569 INFO [localhost-startStop-1] cn.hofan.servlet.InitServlet.init 从web.xml中读取配置参数appid:{wx514fa56faa4f60b6}
+31-Oct-2015 09:48:05.570 INFO [localhost-startStop-1] cn.hofan.servlet.InitServlet.init 从web.xml中读取配置参数appsecret:{a06cec8d677edd9484847ceee5208dd2}
+31-Oct-2015 09:48:05.588 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/soft/tomcat_weixin/webapps/orderdetail
+31-Oct-2015 09:48:05.630 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+31-Oct-2015 09:48:05.649 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9020"]
+31-Oct-2015 09:48:05.660 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2404 ms
+31-Oct-2015 09:48:06.173 INFO [Thread-6] cn.hofan.thread.TokenThread.run 第1次获取access_token成功，有效时长{7200}秒  token:{sf95J3NZkJXT_3ZgrycEYq88Y5dxzifjBewgKZR0EH5WreTbH0jxgpIxTyGNndNGe9uwzG9QDeNGt0AGlpVsU5aifwjYAlt5zw33nET2S8IGSAiAGAWIQ}
+31-Oct-2015 09:48:06.177 INFO [Thread-6] cn.hofan.util.FileUtil.createFile 删除之前的然后再创建空文件/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 09:48:06.178 INFO [Thread-6] cn.hofan.util.FileUtil.writeTxtFile 把access_token写入/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 09:56:29.067 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool creating DAOHelper configPath:/opt/soft/tomcat_weixin/webapps/weixin/WEB-INF/classes/cn/hofan/dal/config/PersonalInfo.properties
+31-Oct-2015 09:56:29.078 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool init ConnectionPool...
+31-Oct-2015 09:56:29.108 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool creating DAOHelper configPath:/opt/soft/tomcat_weixin/webapps/weixin/WEB-INF/classes/cn/hofan/dal/config/ERPServer.properties
+31-Oct-2015 09:56:29.109 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool init ConnectionPool...
+31-Oct-2015 09:59:08.820 INFO [http-nio-9999-exec-8] cn.hofan.service.CoreService.processRequest erpcode:GYS1510150005
+31-Oct-2015 09:59:10.642 INFO [http-nio-9999-exec-8] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/eb74ca975760422d8c1236a0d81849f6.jsp成功
+31-Oct-2015 09:59:10.643 INFO [http-nio-9999-exec-8] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/eb74ca975760422d8c1236a0d81849f6.jsp成功
+31-Oct-2015 10:06:02.504 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+31-Oct-2015 10:06:02.837 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+31-Oct-2015 10:06:02.864 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2015 10:06:02.866 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9020"]
+31-Oct-2015 10:06:02.868 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2015 10:06:02.868 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 755 ms
+31-Oct-2015 10:06:02.891 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Oct-2015 10:06:02.897 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.5
+31-Oct-2015 10:06:02.928 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/soft/tomcat_weixin/webapps/weixin.war
+31-Oct-2015 10:06:04.925 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2015 10:06:05.037 INFO [localhost-startStop-1] cn.hofan.servlet.InitServlet.init 从web.xml中读取配置参数appid:{wx514fa56faa4f60b6}
+31-Oct-2015 10:06:05.038 INFO [localhost-startStop-1] cn.hofan.servlet.InitServlet.init 从web.xml中读取配置参数appsecret:{a06cec8d677edd9484847ceee5208dd2}
+31-Oct-2015 10:06:05.079 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/soft/tomcat_weixin/webapps/orderdetail
+31-Oct-2015 10:06:05.130 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+31-Oct-2015 10:06:05.146 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9020"]
+31-Oct-2015 10:06:05.149 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2281 ms
+31-Oct-2015 10:06:05.689 INFO [Thread-6] cn.hofan.thread.TokenThread.run 第1次获取access_token成功，有效时长{7200}秒  token:{Mn8wL0quAJ5AvrB8t30EV6jOV1b9GWKynYU04aCNQtoA053bPqGlWjOtwy3eRyI409aYKsHuXfdYl_kHOveA3-CqMJpsHQOJZ8zC7_gjdiIXPWfADACUB}
+31-Oct-2015 10:06:05.692 INFO [Thread-6] cn.hofan.util.FileUtil.createFile 删除之前的然后再创建空文件/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 10:06:05.693 INFO [Thread-6] cn.hofan.util.FileUtil.writeTxtFile 把access_token写入/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 10:21:56.709 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool creating DAOHelper configPath:/opt/soft/tomcat_weixin/webapps/weixin/WEB-INF/classes/cn/hofan/dal/config/PersonalInfo.properties
+31-Oct-2015 10:21:56.719 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool init ConnectionPool...
+31-Oct-2015 10:21:56.741 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool creating DAOHelper configPath:/opt/soft/tomcat_weixin/webapps/weixin/WEB-INF/classes/cn/hofan/dal/config/ERPServer.properties
+31-Oct-2015 10:21:56.743 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool init ConnectionPool...
+31-Oct-2015 10:21:57.493 INFO [http-nio-9999-exec-1] cn.hofan.service.CoreService.processRequest erpcode:7007
+31-Oct-2015 10:21:58.787 INFO [http-nio-9999-exec-1] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/4c2c0cf9b5184c7d9037b5fcc29fa142.jsp成功
+31-Oct-2015 10:21:58.788 INFO [http-nio-9999-exec-1] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/4c2c0cf9b5184c7d9037b5fcc29fa142.jsp成功
+31-Oct-2015 11:56:24.755 INFO [http-nio-9999-exec-6] cn.hofan.service.CoreService.processRequest erpcode:5545
+31-Oct-2015 11:56:24.989 INFO [http-nio-9999-exec-6] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/28f8823f762649a98f1324559490a133.jsp成功
+31-Oct-2015 11:56:24.989 INFO [http-nio-9999-exec-6] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/28f8823f762649a98f1324559490a133.jsp成功
+31-Oct-2015 12:02:45.980 INFO [Thread-6] cn.hofan.thread.TokenThread.run 第2次获取access_token成功，有效时长{7200}秒  token:{83-dz9x7AyF8SYJcsuClF1Y6yqqV7ZXcOBU6DQHs_kE9grsC7umiOk--M3KNneA5q4adDpBeM9S3zSY6hl0AjpVSrPo98YYON0CeLiKKfeMFCEcAHAAXZ}
+31-Oct-2015 12:02:45.986 INFO [Thread-6] cn.hofan.util.FileUtil.createFile 删除之前的然后再创建空文件/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 12:02:45.987 INFO [Thread-6] cn.hofan.util.FileUtil.writeTxtFile 把access_token写入/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 13:24:45.179 INFO [http-nio-9999-exec-1] cn.hofan.service.CoreService.processRequest erpcode:2375
+31-Oct-2015 13:24:45.434 INFO [http-nio-9999-exec-1] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/f5d02e75075746f4a13bf9747125310d.jsp成功
+31-Oct-2015 13:24:45.436 INFO [http-nio-9999-exec-1] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/f5d02e75075746f4a13bf9747125310d.jsp成功
+31-Oct-2015 13:32:38.406 INFO [http-nio-9999-exec-4] cn.hofan.service.CoreService.processRequest erpcode:6510
+31-Oct-2015 13:32:38.602 INFO [http-nio-9999-exec-4] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/a31f201658084f84b30ca56cc08c3587.jsp成功
+31-Oct-2015 13:32:38.603 INFO [http-nio-9999-exec-4] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/a31f201658084f84b30ca56cc08c3587.jsp成功
+31-Oct-2015 13:32:42.841 INFO [http-nio-9999-exec-6] cn.hofan.service.CoreService.processRequest erpcode:6510
+31-Oct-2015 13:32:42.861 INFO [http-nio-9999-exec-6] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/45ee0d24a8e94e59b954074eca9d05d2.jsp成功
+31-Oct-2015 13:32:42.862 INFO [http-nio-9999-exec-6] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/45ee0d24a8e94e59b954074eca9d05d2.jsp成功
+31-Oct-2015 13:33:02.222 INFO [http-nio-9999-exec-3] cn.hofan.service.CoreService.processRequest erpcode:6510
+31-Oct-2015 13:33:02.244 INFO [http-nio-9999-exec-3] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/a91e761ebdfd440eaeba1c1be7502bbc.jsp成功
+31-Oct-2015 13:33:02.244 INFO [http-nio-9999-exec-3] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/a91e761ebdfd440eaeba1c1be7502bbc.jsp成功
+31-Oct-2015 13:59:26.263 INFO [Thread-6] cn.hofan.thread.TokenThread.run 第3次获取access_token成功，有效时长{7200}秒  token:{rHeqIRyZPj4NjOcGl4wLTwavUykWoEyrRBf1KTQDX74Gf3VQfsMkkJOG6TLUSeK4Zmsc6MAVCeYmhNWtZyYlO4W6u0JomRGZbW2ACzPwCegKUSfABASCA}
+31-Oct-2015 13:59:26.264 INFO [Thread-6] cn.hofan.util.FileUtil.createFile 删除之前的然后再创建空文件/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 13:59:26.265 INFO [Thread-6] cn.hofan.util.FileUtil.writeTxtFile 把access_token写入/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 15:04:21.781 INFO [http-nio-9999-exec-3] cn.hofan.service.CoreService.processRequest erpcode:6784
+31-Oct-2015 15:04:22.424 INFO [http-nio-9999-exec-3] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/ef7591a0b8f24ea0b88df31ba3bb829d.jsp成功
+31-Oct-2015 15:04:22.425 INFO [http-nio-9999-exec-3] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/ef7591a0b8f24ea0b88df31ba3bb829d.jsp成功
+31-Oct-2015 15:07:12.358 INFO [http-nio-9999-exec-4] cn.hofan.service.CoreService.processRequest erpcode:2237
+31-Oct-2015 15:07:12.723 INFO [http-nio-9999-exec-4] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/24fc04ad39a241d0b9ae99d6d4422ead.jsp成功
+31-Oct-2015 15:07:12.724 INFO [http-nio-9999-exec-4] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/24fc04ad39a241d0b9ae99d6d4422ead.jsp成功
+31-Oct-2015 15:11:02.183 INFO [http-nio-9999-exec-10] cn.hofan.service.CoreService.processRequest erpcode:6962
+31-Oct-2015 15:11:02.469 INFO [http-nio-9999-exec-10] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/dbb3145f77f84305a545fd6bc091c2d3.jsp成功
+31-Oct-2015 15:11:02.470 INFO [http-nio-9999-exec-10] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/dbb3145f77f84305a545fd6bc091c2d3.jsp成功
+31-Oct-2015 15:11:21.773 INFO [http-nio-9999-exec-2] cn.hofan.service.CoreService.processRequest erpcode:6962
+31-Oct-2015 15:11:21.853 INFO [http-nio-9999-exec-2] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/f2d8d39eaf0045b7bda8c8912b6b42f3.jsp成功
+31-Oct-2015 15:11:21.854 INFO [http-nio-9999-exec-2] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/f2d8d39eaf0045b7bda8c8912b6b42f3.jsp成功
+31-Oct-2015 15:12:38.320 INFO [http-nio-9999-exec-5] cn.hofan.service.CoreService.processRequest erpcode:235
+31-Oct-2015 15:12:39.228 INFO [http-nio-9999-exec-5] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/a16f31cb09f74d0fa633dc4481304155.jsp成功
+31-Oct-2015 15:12:39.228 INFO [http-nio-9999-exec-5] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/a16f31cb09f74d0fa633dc4481304155.jsp成功
+31-Oct-2015 15:16:40.763 INFO [http-nio-9999-exec-6] cn.hofan.service.CoreService.processRequest erpcode:gys1508130001
+31-Oct-2015 15:16:41.881 INFO [http-nio-9999-exec-6] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/7cf3e1ae236e4b8ba7f2d1ee5d7cf0fa.jsp成功
+31-Oct-2015 15:16:41.884 INFO [http-nio-9999-exec-6] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/7cf3e1ae236e4b8ba7f2d1ee5d7cf0fa.jsp成功
+31-Oct-2015 15:29:33.596 INFO [http-nio-9999-exec-10] cn.hofan.service.CoreService.processRequest erpcode:1188
+31-Oct-2015 15:29:33.860 INFO [http-nio-9999-exec-10] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/5dcc7ff24d3a4199b3e808c8f1684048.jsp成功
+31-Oct-2015 15:29:33.874 INFO [http-nio-9999-exec-10] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/5dcc7ff24d3a4199b3e808c8f1684048.jsp成功
+31-Oct-2015 15:56:06.810 INFO [Thread-6] cn.hofan.thread.TokenThread.run 第4次获取access_token成功，有效时长{7200}秒  token:{b98_9AKbp7rPd0nn1m0EU9EP1R1MzlO-jDb43_6xjQPXKuMASVuM8X-3IWbd0NiPL8YBNDrIupwvlSCRMkd5V5d4cFE1EwRocUpXZg4j9gIVDMgAHAIQZ}
+31-Oct-2015 15:56:06.812 INFO [Thread-6] cn.hofan.util.FileUtil.createFile 删除之前的然后再创建空文件/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 15:56:06.812 INFO [Thread-6] cn.hofan.util.FileUtil.writeTxtFile 把access_token写入/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 16:22:50.008 INFO [http-nio-9999-exec-4] cn.hofan.service.CoreService.processRequest erpcode:2359
+31-Oct-2015 16:22:50.264 INFO [http-nio-9999-exec-4] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/cf3b0875ad59417ca6f7a1b96b2d4e7a.jsp成功
+31-Oct-2015 16:22:50.265 INFO [http-nio-9999-exec-4] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/cf3b0875ad59417ca6f7a1b96b2d4e7a.jsp成功
+31-Oct-2015 16:23:46.386 INFO [http-nio-9999-exec-3] cn.hofan.service.CoreService.processRequest erpcode:2359
+31-Oct-2015 16:23:46.472 INFO [http-nio-9999-exec-3] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/17615a2dd8124f3a8951f6da0fe55abd.jsp成功
+31-Oct-2015 16:23:46.473 INFO [http-nio-9999-exec-3] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/17615a2dd8124f3a8951f6da0fe55abd.jsp成功
+31-Oct-2015 16:25:53.670 INFO [http-nio-9999-exec-5] cn.hofan.service.CoreService.processRequest erpcode:6258
+31-Oct-2015 16:25:53.887 INFO [http-nio-9999-exec-5] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/56a1ce1d6153491698b2ebdf816319f2.jsp成功
+31-Oct-2015 16:25:53.888 INFO [http-nio-9999-exec-5] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/56a1ce1d6153491698b2ebdf816319f2.jsp成功
+31-Oct-2015 16:31:36.521 INFO [http-nio-9999-exec-6] cn.hofan.service.CoreService.processRequest erpcode:017
+31-Oct-2015 16:31:36.715 INFO [http-nio-9999-exec-6] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/ea555c663fee448a82ad0bbd25f9d48c.jsp成功
+31-Oct-2015 16:31:36.716 INFO [http-nio-9999-exec-6] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/ea555c663fee448a82ad0bbd25f9d48c.jsp成功
+31-Oct-2015 17:52:47.105 INFO [Thread-6] cn.hofan.thread.TokenThread.run 第5次获取access_token成功，有效时长{7200}秒  token:{q0m77NOrUR-IdmQWIrpwl8fh2lq479tShA6bFUqQyij4g3TPqun_WmOW6HN30hBNuMa7wDV_0sJDW1SLFjXLvMyMFCwZgCN0-PIWGkl8RBcGZGgABAZSZ}
+31-Oct-2015 17:52:47.119 INFO [Thread-6] cn.hofan.util.FileUtil.createFile 删除之前的然后再创建空文件/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 17:52:47.120 INFO [Thread-6] cn.hofan.util.FileUtil.writeTxtFile 把access_token写入/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 18:21:28.191 INFO [http-nio-9999-exec-3] cn.hofan.service.CoreService.processRequest erpcode:2390
+31-Oct-2015 18:21:28.488 INFO [http-nio-9999-exec-3] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/4c3ee65035054c619c442338a690f4b4.jsp成功
+31-Oct-2015 18:21:28.489 INFO [http-nio-9999-exec-3] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/4c3ee65035054c619c442338a690f4b4.jsp成功
+31-Oct-2015 19:27:03.571 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+31-Oct-2015 19:27:03.885 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+31-Oct-2015 19:27:03.911 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2015 19:27:03.914 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9020"]
+31-Oct-2015 19:27:03.915 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2015 19:27:03.916 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1257 ms
+31-Oct-2015 19:27:03.936 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Oct-2015 19:27:03.937 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.5
+31-Oct-2015 19:27:03.981 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/soft/tomcat_weixin/webapps/weixin.war
+31-Oct-2015 19:27:06.909 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2015 19:27:07.128 INFO [localhost-startStop-1] cn.hofan.servlet.InitServlet.init 从web.xml中读取配置参数appid:{wx514fa56faa4f60b6}
+31-Oct-2015 19:27:07.128 INFO [localhost-startStop-1] cn.hofan.servlet.InitServlet.init 从web.xml中读取配置参数appsecret:{a06cec8d677edd9484847ceee5208dd2}
+31-Oct-2015 19:27:07.158 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/soft/tomcat_weixin/webapps/orderdetail
+31-Oct-2015 19:27:07.222 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+31-Oct-2015 19:27:07.252 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9020"]
+31-Oct-2015 19:27:07.266 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3350 ms
+31-Oct-2015 19:27:07.864 INFO [Thread-6] cn.hofan.thread.TokenThread.run 第1次获取access_token成功，有效时长{7200}秒  token:{BjmyNpLCP2oE34v28QC0_tXmJgYQakTd9womzICtNNCWXrIlD-6bdV_EYEKTwF5GZahRTxXP2LDfx6Wq6Oz0S8ydU9nHbTnXELv7EZhD3TERMPaAHAGBE}
+31-Oct-2015 19:27:07.874 INFO [Thread-6] cn.hofan.util.FileUtil.createFile 删除之前的然后再创建空文件/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 19:27:07.874 INFO [Thread-6] cn.hofan.util.FileUtil.writeTxtFile 把access_token写入/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 19:30:02.558 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+31-Oct-2015 19:30:02.837 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+31-Oct-2015 19:30:02.870 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2015 19:30:02.872 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9020"]
+31-Oct-2015 19:30:02.873 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2015 19:30:02.874 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1151 ms
+31-Oct-2015 19:30:02.900 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Oct-2015 19:30:02.906 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.5
+31-Oct-2015 19:30:02.943 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/soft/tomcat_weixin/webapps/weixin.war
+31-Oct-2015 19:30:04.641 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2015 19:30:04.764 INFO [localhost-startStop-1] cn.hofan.servlet.InitServlet.init 从web.xml中读取配置参数appid:{wx514fa56faa4f60b6}
+31-Oct-2015 19:30:04.764 INFO [localhost-startStop-1] cn.hofan.servlet.InitServlet.init 从web.xml中读取配置参数appsecret:{a06cec8d677edd9484847ceee5208dd2}
+31-Oct-2015 19:30:04.786 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/soft/tomcat_weixin/webapps/orderdetail
+31-Oct-2015 19:30:04.832 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+31-Oct-2015 19:30:04.848 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9020"]
+31-Oct-2015 19:30:04.857 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1983 ms
+31-Oct-2015 19:30:05.286 INFO [Thread-6] cn.hofan.thread.TokenThread.run 第1次获取access_token成功，有效时长{7200}秒  token:{T73Xn0S_2rQSfLu8FOFQtHSwHbvifNt2r4V-b46_CQUma-AOtbUaFPcfmiVOhwHldvofqF_JIFAWdqWoHAIrQKvHgzWQvYlAzaCDTLbRoYENHTjAIAHBN}
+31-Oct-2015 19:30:05.288 INFO [Thread-6] cn.hofan.util.FileUtil.createFile 删除之前的然后再创建空文件/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 19:30:05.288 INFO [Thread-6] cn.hofan.util.FileUtil.writeTxtFile 把access_token写入/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 19:48:28.748 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool creating DAOHelper configPath:/opt/soft/tomcat_weixin/webapps/weixin/WEB-INF/classes/cn/hofan/dal/config/PersonalInfo.properties
+31-Oct-2015 19:48:28.753 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool init ConnectionPool...
+31-Oct-2015 19:48:28.776 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool creating DAOHelper configPath:/opt/soft/tomcat_weixin/webapps/weixin/WEB-INF/classes/cn/hofan/dal/config/ERPServer.properties
+31-Oct-2015 19:48:28.781 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool init ConnectionPool...
+31-Oct-2015 19:48:29.894 INFO [http-nio-9999-exec-1] cn.hofan.service.CoreService.processRequest erpcode:2375
+31-Oct-2015 19:48:30.793 INFO [http-nio-9999-exec-1] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/9d46ded3e78a427fba649e9ba9bd4204.jsp成功
+31-Oct-2015 19:48:30.794 INFO [http-nio-9999-exec-1] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/9d46ded3e78a427fba649e9ba9bd4204.jsp成功
+31-Oct-2015 19:48:32.828 INFO [http-nio-9999-exec-2] cn.hofan.service.CoreService.processRequest erpcode:2375
+31-Oct-2015 19:48:32.927 INFO [http-nio-9999-exec-2] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/3cf290e29cd2418ba135b0ebd81a7d5e.jsp成功
+31-Oct-2015 19:48:32.927 INFO [http-nio-9999-exec-2] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/3cf290e29cd2418ba135b0ebd81a7d5e.jsp成功
+31-Oct-2015 20:10:01.002 INFO [http-nio-9999-exec-7] cn.hofan.service.CoreService.processRequest erpcode:6962
+31-Oct-2015 20:10:01.121 INFO [http-nio-9999-exec-7] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/de3419914495413d8fa532cbb9693132.jsp成功
+31-Oct-2015 20:10:01.123 INFO [http-nio-9999-exec-7] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/de3419914495413d8fa532cbb9693132.jsp成功
+31-Oct-2015 20:25:03.094 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+31-Oct-2015 20:25:03.565 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+31-Oct-2015 20:25:03.613 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2015 20:25:03.621 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9020"]
+31-Oct-2015 20:25:03.622 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2015 20:25:03.631 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1244 ms
+31-Oct-2015 20:25:03.672 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Oct-2015 20:25:03.677 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.5
+31-Oct-2015 20:25:03.737 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/soft/tomcat_weixin/webapps/weixin.war
+31-Oct-2015 20:25:06.786 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2015 20:25:07.073 INFO [localhost-startStop-1] cn.hofan.servlet.InitServlet.init 从web.xml中读取配置参数appid:{wx514fa56faa4f60b6}
+31-Oct-2015 20:25:07.073 INFO [localhost-startStop-1] cn.hofan.servlet.InitServlet.init 从web.xml中读取配置参数appsecret:{a06cec8d677edd9484847ceee5208dd2}
+31-Oct-2015 20:25:07.097 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/soft/tomcat_weixin/webapps/orderdetail
+31-Oct-2015 20:25:07.160 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+31-Oct-2015 20:25:07.183 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9020"]
+31-Oct-2015 20:25:07.202 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3571 ms
+31-Oct-2015 20:25:07.800 INFO [Thread-6] cn.hofan.thread.TokenThread.run 第1次获取access_token成功，有效时长{7200}秒  token:{RdBi01GrhPE0QTQlDdGwjFlhrBTcgqikdOh8V9Rbxxlu0m1oeudSEYJ2s2iOF2JhV0Fmh8EUw9-EX9th-atJE7MxHPhT9hlGFgRSMv10P34ZFNeAGASYG}
+31-Oct-2015 20:25:07.801 INFO [Thread-6] cn.hofan.util.FileUtil.createFile 删除之前的然后再创建空文件/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 20:25:07.802 INFO [Thread-6] cn.hofan.util.FileUtil.writeTxtFile 把access_token写入/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 20:51:02.263 INFO [main] org.apache.catalina.core.AprLifecycleListener.init The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+31-Oct-2015 20:51:02.789 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+31-Oct-2015 20:51:02.839 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2015 20:51:02.849 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-9020"]
+31-Oct-2015 20:51:02.851 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Oct-2015 20:51:02.856 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1296 ms
+31-Oct-2015 20:51:02.903 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Oct-2015 20:51:02.910 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.5
+31-Oct-2015 20:51:02.965 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/soft/tomcat_weixin/webapps/weixin.war
+31-Oct-2015 20:51:06.124 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Oct-2015 20:51:06.361 INFO [localhost-startStop-1] cn.hofan.servlet.InitServlet.init 从web.xml中读取配置参数appid:{wx514fa56faa4f60b6}
+31-Oct-2015 20:51:06.366 INFO [localhost-startStop-1] cn.hofan.servlet.InitServlet.init 从web.xml中读取配置参数appsecret:{a06cec8d677edd9484847ceee5208dd2}
+31-Oct-2015 20:51:06.394 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/soft/tomcat_weixin/webapps/orderdetail
+31-Oct-2015 20:51:06.444 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+31-Oct-2015 20:51:06.463 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-9020"]
+31-Oct-2015 20:51:06.475 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3619 ms
+31-Oct-2015 20:51:07.180 INFO [Thread-6] cn.hofan.thread.TokenThread.run 第1次获取access_token成功，有效时长{7200}秒  token:{h6Haywjr7PwC6BWwME7k0IaI6uZs4UDl603s1rA3riO4BYo7_twp4Gdrf35oiL21TzUpsaYGaOSUe5TldEKVQpQklF6Ij8k8wWRHlhoEBOcMOAjAAAXZL}
+31-Oct-2015 20:51:07.183 INFO [Thread-6] cn.hofan.util.FileUtil.createFile 删除之前的然后再创建空文件/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 20:51:07.184 INFO [Thread-6] cn.hofan.util.FileUtil.writeTxtFile 把access_token写入/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 21:29:57.240 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool creating DAOHelper configPath:/opt/soft/tomcat_weixin/webapps/weixin/WEB-INF/classes/cn/hofan/dal/config/PersonalInfo.properties
+31-Oct-2015 21:29:57.244 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool init ConnectionPool...
+31-Oct-2015 21:29:57.270 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool creating DAOHelper configPath:/opt/soft/tomcat_weixin/webapps/weixin/WEB-INF/classes/cn/hofan/dal/config/ERPServer.properties
+31-Oct-2015 21:29:57.272 INFO [http-nio-9999-exec-1] cn.hofan.spat.db.dal.pool.DBPoolFactory.getDBConnectionPool init ConnectionPool...
+31-Oct-2015 21:29:58.285 INFO [http-nio-9999-exec-1] cn.hofan.service.CoreService.processRequest erpcode:3371
+31-Oct-2015 21:30:00.308 INFO [http-nio-9999-exec-1] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/dc78588a420a4eeaa7e54fa8393b7cb1.jsp成功
+31-Oct-2015 21:30:00.309 INFO [http-nio-9999-exec-1] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/dc78588a420a4eeaa7e54fa8393b7cb1.jsp成功
+31-Oct-2015 22:22:11.119 INFO [http-nio-9999-exec-5] cn.hofan.service.CoreService.processRequest erpcode:1680
+31-Oct-2015 22:22:11.339 INFO [http-nio-9999-exec-5] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/fc8e6ac0a174431599cfd58dc3863a18.jsp成功
+31-Oct-2015 22:22:11.340 INFO [http-nio-9999-exec-5] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/fc8e6ac0a174431599cfd58dc3863a18.jsp成功
+31-Oct-2015 22:47:47.470 INFO [Thread-6] cn.hofan.thread.TokenThread.run 第2次获取access_token成功，有效时长{7200}秒  token:{BsXQwbYAny03UVaosXa4u73Mgtas_nFXtK1FVx-iNIHwCDFvUtkx2jcB7EdOHyyz7A4he4TutUpSN1jPWGoWz3Dqd4bI4fQ4x5ZtBYhBvq8FQAgABAALV}
+31-Oct-2015 22:47:47.471 INFO [Thread-6] cn.hofan.util.FileUtil.createFile 删除之前的然后再创建空文件/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 22:47:47.472 INFO [Thread-6] cn.hofan.util.FileUtil.writeTxtFile 把access_token写入/opt/soft/tomcat_weixin/webapps/accesstoken.txt成功
+31-Oct-2015 23:16:24.912 INFO [http-nio-9999-exec-8] cn.hofan.service.CoreService.processRequest erpcode:5132
+31-Oct-2015 23:16:25.155 INFO [http-nio-9999-exec-8] cn.hofan.util.FileUtil.createFile 创建空文件/opt/soft/tomcat_weixin/webapps/orderdetail/a7756a3601de4eeea01c8112603bd903.jsp成功
+31-Oct-2015 23:16:25.155 INFO [http-nio-9999-exec-8] cn.hofan.util.FileUtil.writeTxtFile 把orderdetails写入/opt/soft/tomcat_weixin/webapps/orderdetail/a7756a3601de4eeea01c8112603bd903.jsp成功

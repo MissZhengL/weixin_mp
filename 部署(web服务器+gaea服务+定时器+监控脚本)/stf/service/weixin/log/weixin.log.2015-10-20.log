@@ -1,0 +1,75 @@
+[10-20 00:01:00 030 INFO ] [weixin_Worker-6] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 00:01:00------
+[10-20 00:01:00 042 INFO ] [weixin_Worker-6] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 00:01:00
+[10-20 01:01:00 016 INFO ] [weixin_Worker-7] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 01:01:00------
+[10-20 01:01:00 024 INFO ] [weixin_Worker-7] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 01:01:00
+[10-20 02:01:00 016 INFO ] [weixin_Worker-8] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 02:01:00------
+[10-20 02:01:00 023 INFO ] [weixin_Worker-8] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 02:01:00
+[10-20 03:01:00 053 INFO ] [weixin_Worker-9] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 03:01:00------
+[10-20 03:01:00 054 INFO ] [weixin_Worker-9] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 03:01:00
+[10-20 04:01:00 034 INFO ] [weixin_Worker-10] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 04:01:00------
+[10-20 04:01:00 042 INFO ] [weixin_Worker-10] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 04:01:00
+[10-20 05:01:00 013 INFO ] [weixin_Worker-1] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 05:01:00------
+[10-20 05:01:00 019 INFO ] [weixin_Worker-1] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 05:01:00
+[10-20 06:01:00 022 INFO ] [weixin_Worker-2] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 06:01:00------
+[10-20 06:01:00 023 INFO ] [weixin_Worker-2] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 06:01:00
+[10-20 07:01:00 016 INFO ] [weixin_Worker-3] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 07:01:00------
+[10-20 07:01:00 022 INFO ] [weixin_Worker-3] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 07:01:00
+[10-20 08:01:00 018 INFO ] [weixin_Worker-4] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 08:01:00------
+[10-20 08:01:00 024 INFO ] [weixin_Worker-4] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 08:01:00
+[10-20 09:01:00 037 INFO ] [weixin_Worker-5] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 09:01:00------
+[10-20 09:01:00 040 INFO ] [weixin_Worker-5] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 09:01:00
+[10-20 10:01:00 156 INFO ] [weixin_Worker-6] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 10:01:00------
+[10-20 10:01:00 168 INFO ] [weixin_Worker-6] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 10:01:00
+[10-20 11:01:00 044 INFO ] [weixin_Worker-7] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 11:01:00------
+[10-20 11:01:00 051 INFO ] [weixin_Worker-7] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 11:01:00
+[10-20 12:01:00 061 INFO ] [weixin_Worker-8] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 12:01:00------
+[10-20 12:01:00 073 INFO ] [weixin_Worker-8] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 12:01:00
+[10-20 13:01:00 066 INFO ] [weixin_Worker-9] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 13:01:00------
+[10-20 13:01:00 083 INFO ] [weixin_Worker-9] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 13:01:00
+[10-20 14:01:00 035 INFO ] [weixin_Worker-10] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 14:01:00------
+[10-20 14:01:00 036 INFO ] [weixin_Worker-10] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 14:01:00
+[10-20 15:01:00 146 INFO ] [weixin_Worker-1] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 15:01:00------
+[10-20 15:01:00 232 INFO ] [weixin_Worker-1] hofan.provider.TimingJob - 当前时间点： 2015-10-20 15:01:00，待执行作业总数:1
+[10-20 15:01:00 258 INFO ] [weixin_Worker-1] hofan.application.SendallByGroupJobHandler - ==开始按组群发图文消息==
+[10-20 15:01:17 811 INFO ] [weixin_Worker-1] client.loadbalance.Server - Gaea Client v1.0.0:starting init servers
+[10-20 15:01:17 980 INFO ] [weixin_Worker-1] communication.socket.ScoketPool - Gaea Client v1.0.0:init servers end
+[10-20 15:01:18 156 INFO ] [weixin_Worker-1] communication.socket.Worker - Gaea Client v1.0.0:MaxPakageSize:10240000
+[10-20 15:01:18 156 INFO ] [weixin_Worker-1] communication.socket.Worker - Gaea Client v1.0.0:SendBufferSize:8388608
+[10-20 15:01:18 157 INFO ] [weixin_Worker-1] communication.socket.Worker - Gaea Client v1.0.0:RecvBufferSize:8388608
+[10-20 15:01:18 157 INFO ] [weixin_Worker-1] communication.socket.Worker - Gaea Client v1.0.0:create a new connection :Socket[addr=/192.168.3.77,port=10086,localport=48324]
+[10-20 15:01:25 142 WARN ] [weixin_Worker-1] communication.socket.Handle - Gaea Client v1.0.0:method:sendallByGroup invoke time :24858
+[10-20 15:01:25 144 INFO ] [weixin_Worker-1] hofan.application.SendallByGroupJobHandler - 成功
+[10-20 15:01:25 145 INFO ] [weixin_Worker-1] hofan.provider.TimingJob - 已执行作业数： 1,待执行作业数：0
+[10-20 15:01:25 162 INFO ] [weixin_Worker-1] hofan.provider.TimingJob - 当前时间点： 2015-10-20 15:01:25线程睡了
+[10-20 15:01:26 163 INFO ] [weixin_Worker-1] hofan.provider.TimingJob - 当前时间点： 2015-10-20 15:01:26线程醒了
+[10-20 15:01:26 164 INFO ] [weixin_Worker-1] hofan.provider.TimingJob - ------结束执行定时器的此次心跳： 2015-10-20 15:01:26------
+[10-20 16:01:00 447 INFO ] [weixin_Worker-2] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 16:01:00------
+[10-20 16:01:00 535 INFO ] [weixin_Worker-2] hofan.provider.TimingJob - 当前时间点： 2015-10-20 16:01:00，待执行作业总数:1
+[10-20 16:01:00 537 INFO ] [weixin_Worker-2] hofan.application.SendallByGroupJobHandler - ==开始按组群发图文消息==
+[10-20 16:01:04 218 WARN ] [weixin_Worker-2] communication.socket.Handle - Gaea Client v1.0.0:method:sendallByGroup invoke time :3665
+[10-20 16:01:04 219 INFO ] [weixin_Worker-2] hofan.application.SendallByGroupJobHandler - 失败
+[10-20 16:01:04 220 INFO ] [weixin_Worker-2] hofan.provider.TimingJob - 已执行作业数： 1,待执行作业数：0
+[10-20 16:01:04 220 INFO ] [weixin_Worker-2] hofan.provider.TimingJob - 当前时间点： 2015-10-20 16:01:04线程睡了
+[10-20 16:01:05 221 INFO ] [weixin_Worker-2] hofan.provider.TimingJob - 当前时间点： 2015-10-20 16:01:05线程醒了
+[10-20 16:01:05 221 INFO ] [weixin_Worker-2] hofan.provider.TimingJob - ------结束执行定时器的此次心跳： 2015-10-20 16:01:05------
+[10-20 17:01:00 075 INFO ] [weixin_Worker-3] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 17:01:00------
+[10-20 17:01:00 120 INFO ] [weixin_Worker-3] hofan.provider.TimingJob - 当前时间点： 2015-10-20 17:01:00，待执行作业总数:1
+[10-20 17:01:00 120 INFO ] [weixin_Worker-3] hofan.application.SendallByGroupJobHandler - ==开始按组群发图文消息==
+[10-20 17:01:02 180 WARN ] [weixin_Worker-3] communication.socket.Handle - Gaea Client v1.0.0:method:sendallByGroup invoke time :2053
+[10-20 17:01:02 180 INFO ] [weixin_Worker-3] hofan.application.SendallByGroupJobHandler - 失败
+[10-20 17:01:02 180 INFO ] [weixin_Worker-3] hofan.provider.TimingJob - 已执行作业数： 1,待执行作业数：0
+[10-20 17:01:02 188 INFO ] [weixin_Worker-3] hofan.provider.TimingJob - 当前时间点： 2015-10-20 17:01:02线程睡了
+[10-20 17:01:03 189 INFO ] [weixin_Worker-3] hofan.provider.TimingJob - 当前时间点： 2015-10-20 17:01:03线程醒了
+[10-20 17:01:03 189 INFO ] [weixin_Worker-3] hofan.provider.TimingJob - ------结束执行定时器的此次心跳： 2015-10-20 17:01:03------
+[10-20 18:01:00 667 INFO ] [weixin_Worker-4] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 18:01:00------
+[10-20 18:01:00 713 INFO ] [weixin_Worker-4] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 18:01:00
+[10-20 19:01:00 165 INFO ] [weixin_Worker-5] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 19:01:00------
+[10-20 19:01:00 189 INFO ] [weixin_Worker-5] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 19:01:00
+[10-20 20:01:00 056 INFO ] [weixin_Worker-6] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 20:01:00------
+[10-20 20:01:00 073 INFO ] [weixin_Worker-6] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 20:01:00
+[10-20 21:01:00 045 INFO ] [weixin_Worker-7] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 21:01:00------
+[10-20 21:01:00 051 INFO ] [weixin_Worker-7] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 21:01:00
+[10-20 22:01:00 059 INFO ] [weixin_Worker-8] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 22:01:00------
+[10-20 22:01:00 066 INFO ] [weixin_Worker-8] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 22:01:00
+[10-20 23:01:00 039 INFO ] [weixin_Worker-9] hofan.provider.TimingJob - ------开始执行定时器的一次心跳： 2015-10-20 23:01:00------
+[10-20 23:01:00 041 INFO ] [weixin_Worker-9] hofan.provider.TimingJob - 当前时间点无可执行的作业： 2015-10-20 23:01:00
