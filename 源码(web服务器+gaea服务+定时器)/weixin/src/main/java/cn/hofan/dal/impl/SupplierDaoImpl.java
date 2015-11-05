@@ -285,7 +285,7 @@ public class SupplierDaoImpl implements ISupplierDao {
 		System.out.println("验证码是:" + substring);
 		sb.append(substring);
 		sb.append("</br></br>有效时间30分钟，请及时输入！");
-		System.out.println("--send--" + sb.toString());
+		// System.out.println("--send--" + sb.toString());
 		SendEmail.send(result, sb.toString());
 		return substring;
 	}
